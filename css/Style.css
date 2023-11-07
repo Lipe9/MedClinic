@@ -18,7 +18,7 @@ body{
    box-shadow: 1px 1px 20px rgb(20, 138, 248); 
 }
 .nick{
-    font-size: 5lvh;
+    font-size: 4lvh;
     text-shadow: 1px 1px 10px rgb(70,70,226);
     transition: 500ms;
 }
@@ -26,7 +26,7 @@ body{
   text-shadow: 1px 1px 10px red;
   transition: 500ms;
   transform: scale(1.1);
-  font-size: 5lvh;
+  font-size: 4lvh;
 }
 .container {
     display: flex;
