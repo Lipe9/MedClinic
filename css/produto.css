@@ -49,10 +49,11 @@ label{
     margin-top: 10px;
     margin-left: 10px;
   }
-  input[type="radio"] {
+input[type="radio"] {
     margin-right: 5px;
     margin: 4px;
-  }
+
+  } 
 #medico{
     margin: 10px;
     background-color: transparent;
