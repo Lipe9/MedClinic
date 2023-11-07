@@ -13,12 +13,12 @@ body{
 }
 .logo{
     margin: 10%;
-    width: 70%;
+    width: 60%;
     border-radius: 15%;
    box-shadow: 1px 1px 20px rgb(20, 138, 248); 
 }
 .nick{
-    font-size: 4lvh;
+    font-size: 3lvh;
     text-shadow: 1px 1px 10px rgb(70,70,226);
     transition: 500ms;
 }
@@ -26,7 +26,7 @@ body{
   text-shadow: 1px 1px 10px red;
   transition: 500ms;
   transform: scale(1.1);
-  font-size: 4lvh;
+  font-size: 3lvh;
 }
 .container {
     display: flex;
@@ -48,7 +48,7 @@ ul {
 li {
     margin: 15%;
     margin-bottom: 20px;
-    font-size: 3lvh;
+    font-size: 2lvh;
     text-shadow: 1px 1px 10px rgb(20, 138, 248);
     transition: 500ms;
 }
@@ -56,7 +56,7 @@ li {
   text-shadow: 1px 1px 10px red;
   transition: 500ms;
   transform: scale(1.1);
-  font-size: 3lvh;   
+  font-size: 2lvh;   
 }
 a {
     text-decoration: none;
