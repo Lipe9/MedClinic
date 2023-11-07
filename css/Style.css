@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(../img/Banner-Noticia_Telemedicina.png);
+    background-size: cover;
+    background-position-x: 20lvh;
+    background-repeat: no-repeat;
+    display: grid;
+}
+.logo{
+    margin: 10%;
+    width: 70%;
+    border-radius: 15%;
+   box-shadow: 1px 1px 20px rgb(20, 138, 248); 
+}
+.nick{
+    font-size: 5lvh;
+    text-shadow: 1px 1px 10px rgb(70,70,226);
+    transition: 500ms;
+}
+.nick:hover{
+  text-shadow: 1px 1px 10px red;
+  transition: 500ms;
+  transform: scale(1.1);
+  font-size: 5lvh;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.menu {
+    background-color: rgb(4, 36, 111);
+    width: 300px;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 0% 5% 5% 0%;
+    box-shadow: 2px 0px 20px rgb(20, 138, 248);
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 15%;
+    margin-bottom: 20px;
+    font-size: 3lvh;
+    text-shadow: 1px 1px 10px rgb(20, 138, 248);
+    transition: 500ms;
+}
+.list-menu a:hover{
+  text-shadow: 1px 1px 10px red;
+  transition: 500ms;
+  transform: scale(1.1);
+  font-size: 3lvh;   
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+    border-radius: 15px;
+   
+    box-shadow: 2px 0px 20px rgb(20, 138, 248);
+    padding: 20px;
+}
+#section1{
+  border-left: 5px solid rgb(4, 36, 111);
+  text-align: center;
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
+}
+p{
+  margin: 2%;
+  color: black;
+}
+.contenedor {
+  cursor: pointer;
+  margin-top: 20%;
+  transition: 1000ms;
+  display: flex;
+
+}
+.boton {
+  transition: 500ms;
+  margin-left: 5px;
+  margin: 10px;
+}
+.boton:hover{
+  transform: scale(1.1);
+  width: 20px;
+}
+.boton:nth-child(1){
+  background: #16d908;
+  border-radius: 10px 10px 10px 10px;
+  width: 45%;
+}
+.boton:nth-child(2){
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F46036, #FF85A2);
+  border-radius: 10px 10px 10px 10px;
+  width: 45%;
+  
+}

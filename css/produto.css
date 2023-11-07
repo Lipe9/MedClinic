@@ -1,0 +1,38 @@
+.produto a{
+    text-shadow: 1px 1px 10px red;
+    transition: 500ms;
+    transform: scale(1.1);
+    font-size: 3lvh; 
+}
+#section2{
+  border-left: 5px solid rgb(4, 36, 111);
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
+}
+input{
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    background-color: transparent   ;
+    border-radius: 4px;
+    margin: 40px;
+    display: flex;
+    padding: 2px 10px;
+}
+input::placeholder {
+    color:azure;
+}
+.button{
+    background-color: rgb(4, 36, 111);
+    border-radius: 10px 10px ;
+    width: 5%;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgb(20, 138, 248);
+    transition: 1000ms;
+    overflow: hidden;
+}
+.button:hover{
+    background-color: rgb(20, 138, 248);
+    transition: all 500ms ease-out;
+    overflow: hidden;
+    
+}
