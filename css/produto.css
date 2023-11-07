@@ -42,12 +42,21 @@ button:hover{
 
 label{
     display: flex;
-    margin: 20px;
-    margin-left: 40px;
+    margin: 10px;
+    margin-left: 20px;
   }
-  
+  .p1{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
   input[type="radio"] {
     margin-right: 5px;
     margin: 4px;
   }
+#medico{
+    margin: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 4px;
+}
   
