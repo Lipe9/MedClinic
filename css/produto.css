@@ -24,7 +24,6 @@ input::placeholder {
 button{
     background-color: rgb(4, 36, 111);
     border-radius: 10px 10px ;
-    width: 5%;
     text-align: center;
     box-shadow: 0px 5px 10px rgb(20, 138, 248);
     transition: 1000ms;
