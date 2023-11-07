@@ -13,7 +13,7 @@ body{
 }
 .logo{
     margin: 10%;
-    width: 60%;
+    width: 70%;
     border-radius: 15%;
    box-shadow: 1px 1px 20px rgb(20, 138, 248); 
 }
@@ -21,6 +21,7 @@ body{
     font-size: 3lvh;
     text-shadow: 1px 1px 10px rgb(70,70,226);
     transition: 500ms;
+    font-family: 'Libre Baskerville', serif;
 }
 .nick:hover{
   text-shadow: 1px 1px 10px red;
@@ -51,6 +52,7 @@ li {
     font-size: 2lvh;
     text-shadow: 1px 1px 10px rgb(20, 138, 248);
     transition: 500ms;
+    font-family: 'Libre Baskerville', serif;
 }
 .list-menu a:hover{
   text-shadow: 1px 1px 10px red;
