@@ -35,7 +35,7 @@ body{
 }
 .menu {
     background-color: rgb(4, 36, 111);
-    width: 300px;
+    width: 280px;
     color: #fff;
     padding: 20px 10px;
     text-align: center;
@@ -88,7 +88,7 @@ p{
 }
 .contenedor {
   cursor: pointer;
-  margin-top: 70%;
+  margin-top:100%;
   transition: 1000ms;
   display: flex;
 
