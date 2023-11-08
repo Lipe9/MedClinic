@@ -4,13 +4,16 @@
     box-sizing: border-box;
     
 }
+header{
+    position: fixed;
+}
 body{
     background-image: url(../img/Banner-Noticia_Telemedicina.png);
     background-size: cover;
     background-position-x: 20lvh;
     background-repeat: no-repeat;
     display: grid;
-    position: fixed;
+    
 }
 .logo{
     margin: 10%;
