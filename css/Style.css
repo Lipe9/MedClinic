@@ -10,6 +10,7 @@ body{
     background-position-x: 20lvh;
     background-repeat: no-repeat;
     display: grid;
+    position: fixed;
 }
 .logo{
     margin: 10%;
