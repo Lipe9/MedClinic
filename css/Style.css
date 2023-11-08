@@ -35,7 +35,7 @@ h1,h2{
 }
 .container {
     display: flex;
-    height: 120vh;
+    height: 140vh;
 }
 .menu {
     background-color: rgb(4, 36, 111);
