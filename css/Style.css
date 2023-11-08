@@ -10,7 +10,10 @@ body{
     background-position-x: 20lvh;
     background-repeat: no-repeat;
     display: grid;
-    
+}
+h1,h2{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2lvh;
 }
 .logo{
     margin: 10%;
@@ -76,6 +79,7 @@ section {
    
     box-shadow: 2px 0px 20px rgb(20, 138, 248);
     padding: 20px;
+    cursor: pointer;
 }
 #section1{
   border-left: 5px solid rgb(4, 36, 111);
@@ -89,7 +93,7 @@ p{
 }
 .contenedor {
   cursor: pointer;
-  margin-top: 30%;
+  margin-top: 20%;
   transition: 1000ms;
   display: flex;
 
@@ -114,5 +118,11 @@ p{
   width: 45%;
 }
 .p9{
-    margin-top: 550px;
+  margin-top: 100%;
+  cursor: pointer;
+}
+#section2{
+  border-left: 5px solid rgb(4, 36, 111);
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
 }
