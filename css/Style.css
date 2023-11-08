@@ -2,10 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-.menu{
     position: fixed;
+    
 }
 body{
     background-image: url(../img/Banner-Noticia_Telemedicina.png);
