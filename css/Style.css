@@ -111,5 +111,7 @@ p{
   background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F46036, #FF85A2);
   border-radius: 10px 10px 10px 10px;
   width: 45%;
-  
+}
+.p9{
+    margin-top: 100px;
 }
