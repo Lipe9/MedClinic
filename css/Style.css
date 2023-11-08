@@ -4,7 +4,7 @@
     box-sizing: border-box;
     
 }
-header{
+.menu{
     position: fixed;
 }
 body{
