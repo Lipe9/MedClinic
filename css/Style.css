@@ -31,7 +31,7 @@ body{
 }
 .container {
     display: flex;
-    height: 160vh;
+    height: 120vh;
 }
 .menu {
     background-color: rgb(4, 36, 111);
@@ -88,7 +88,7 @@ p{
 }
 .contenedor {
   cursor: pointer;
-  margin-top: 50%;
+  margin-top: 70%;
   transition: 1000ms;
   display: flex;
 
