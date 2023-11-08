@@ -4,14 +4,4 @@
     transform: scale(1.1);
     font-size: 2lvh; 
 }
-img{
-    margin: 5px;
-    width: 8%;
-    border-radius: 20%;
-}
-p{
-    font-size: 2lvh;
-}
-section{
-    display: flex;
-}
+
