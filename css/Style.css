@@ -15,6 +15,23 @@ h1,h2{
   font-family: 'Libre Baskerville', serif;
   font-size: 2lvh;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 15%;
+  margin-bottom: 20px;
+  font-size: 2lvh;
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
+  transition: 500ms;
+  font-family: 'Libre Baskerville', serif;
+}
 .logo{
     margin: 10%;
     width: 70%;
@@ -46,28 +63,11 @@ h1,h2{
     border-radius: 0% 5% 5% 0%;
     box-shadow: 2px 0px 20px rgb(20, 138, 248);
 }
-ul {
-    list-style: none;
-    padding: 0;
-}
-li {
-    margin: 15%;
-    margin-bottom: 20px;
-    font-size: 2lvh;
-    text-shadow: 1px 1px 10px rgb(20, 138, 248);
-    transition: 500ms;
-    font-family: 'Libre Baskerville', serif;
-}
 .list-menu a:hover{
   text-shadow: 1px 1px 10px red;
   transition: 500ms;
   transform: scale(1.1);
   font-size: 2lvh;   
-}
-a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
 }
 .content {
     flex: 1;
@@ -125,4 +125,69 @@ p{
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  transition: 1000ms;
+}
+.dropbtn{
+  margin: 20px;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  transition: 1000ms;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  transition:1000ms;
+  display: block;
+  border-left: 5px solid rgb(4, 36, 111);
+  color: rgb(251, 251, 251);
+  border-radius: 20px;
+  box-shadow: 2px 0px 20px rgb(20, 138, 248);
+}
+.p7{
+  margin: 10px;
+}
+
+.submenu{
+  margin: 10px;
+  border-radius: 10%;
+  transition:1000ms;
+  
+}
+
+.submenu label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(4, 36, 111);
+  transition:1000ms;
+
+}
+
+.submenu select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 15%;
+  box-sizing: border-box;
+  background-color: rgb(20, 138, 248);
+  transition:1000ms;
+}
+
+.resultado {
+  margin-top: 20px;
+  
+}
+#itemSelecionado{
+  margin: 20px;
+  font-size: 2lvh;
+  font-weight: 300;
 }
