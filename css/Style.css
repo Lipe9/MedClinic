@@ -7,7 +7,7 @@
 body{
     background-image: url(../img/Banner-Noticia_Telemedicina.png);
     background-size: cover;
-    background-position-x: 20lvh;
+    background-position-x: -10lvh;
     background-repeat: no-repeat;
     display: grid;
 }
@@ -36,7 +36,7 @@ li {
     margin: 10%;
     width: 70%;
     border-radius: 15%;
-   box-shadow: 1px 1px 20px rgb(20, 138, 248); 
+    box-shadow: 1px 1px 20px rgb(20, 138, 248); 
 }
 .nick{
     font-size: 3lvh;

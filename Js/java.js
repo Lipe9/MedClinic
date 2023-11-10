@@ -6,4 +6,7 @@ function atualizarResultado() {
     const resultado = document.getElementById('itemSelecionado');
     resultado.textContent = `Selecionado: ${menu1}, ${menu2}, ${menu3}`;
   }
-  
+
+  document.getElementById("botaoEnviar").addEventListener("click", function() {
+    alert("Seu formulario foi enviado com sucesso!!");
+  });
