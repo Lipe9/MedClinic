@@ -52,7 +52,7 @@ li {
 }
 .container {
     display: flex;
-    height: 140vh;
+    height: 200vh;
 }
 .menu {
     background-color: rgb(4, 36, 111);
