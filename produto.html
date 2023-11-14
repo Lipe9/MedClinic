@@ -80,11 +80,7 @@
                 <h2>Agendamento:</h2>
                 <div class="dropdown">
                   <button class="dropbtn">Clínicas</button>
-                  <button class="dropbtn">Doutores</button>
-                  <button class="dropbtn">Horários</button>
-                  <div class="dropdown-content">
-                    <div class="submenu">
-                      <label for="menu1">Clinicas:</label>
+                    <label for="menu1">Clinicas:</label>
                       <select id="menu1" onchange="atualizarResultado()">
                          <option>Selecione</option>
                         <option value="Médica Vitalis">Médica Vitalis</option>
@@ -92,6 +88,19 @@
                         <option value="Nutrição NutriVida">Nutrição NutriVida</option>
                         <option value="Oftalmologia Visão Clara">Oftalmologia Visão Clara</option>
                       </select>
+                  <button class="dropbtn">Doutores</button>
+                  <button class="dropbtn">Horários</button>
+                    <label for="menu3">Horários</label>
+                      <select id="menu3" onchange="atualizarResultado()">
+                          <option>Selecione</option>
+                        <option value="9:00 - Manhã">9:00 - Manhã</option>
+                        <option value="11:00 - Manhã">11:00 - Manhã</option>
+                        <option value="13:00 - Tarde">13:00 - Tarde</option>
+                        <option value="15:00 - Tarde">15:00 - Tarde</option>
+                      </select>
+                  <div class="dropdown-content">
+                    <div class="submenu">
+                      
                     </div>
                     <div class="submenu">
                       <label for="menu2">Doutores</label>
@@ -105,14 +114,7 @@
                     </div>
                     <div class="submenu">
                         
-                      <label for="menu3">Horários</label>
-                      <select id="menu3" onchange="atualizarResultado()">
-                          <option>Selecione</option>
-                        <option value="9:00 - Manhã">9:00 - Manhã</option>
-                        <option value="11:00 - Manhã">11:00 - Manhã</option>
-                        <option value="13:00 - Tarde">13:00 - Tarde</option>
-                        <option value="15:00 - Tarde">15:00 - Tarde</option>
-                      </select>
+                      
                     </div>
                   </div>
                 </div>
