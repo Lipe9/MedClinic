@@ -4,6 +4,7 @@
     box-sizing: border-box;
     
 }
+
 body{
     background-image: url(../img/Banner-Noticia_Telemedicina.png);
     background-size: cover;
@@ -52,7 +53,7 @@ li {
 }
 .container {
     display: flex;
-    height: 200vh;
+    height: 140vh;
 }
 .menu {
     background-color: rgb(4, 36, 111);
@@ -117,9 +118,10 @@ p{
   border-radius: 10px 10px 10px 10px;
   width: 45%;
 }
-.p9{
+.p9 a{
   margin-top: 100%;
   cursor: pointer;
+  color: black;
 }
 #section2{
   border-left: 5px solid rgb(4, 36, 111);

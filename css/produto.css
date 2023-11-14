@@ -31,11 +31,7 @@ button{
     transition: 1000ms;
     color: white;
 }
-button:hover{
-    background-color: rgb(20, 138, 248);
-    transition: all 500ms ease-out;
-    overflow: hidden;
-}
+
 .container2 {
     font-size: 18px;
   }
@@ -60,4 +56,17 @@ input[type="radio"] {
     border-bottom: 3px solid rgb(4, 36, 111);
     border-radius: 4px;
 }
+.menu9{
+  margin: 15px;
+  display: flex;
 
+}
+.label{
+  font-weight: 1000;
+  font-size: 2lvh;
+}
+select{
+  width: 6%;
+  background: transparent;
+  cursor: pointer;
+}
