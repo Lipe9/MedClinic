@@ -199,7 +199,7 @@ p{
     background-color: rgb(4, 36, 111);
     color: #fff;
     padding: 20px;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
