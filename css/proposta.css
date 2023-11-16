@@ -10,3 +10,13 @@
     color: rgb(4, 36, 111);
     text-shadow: 1px 1px 10px rgb(20, 138, 248);
   }
+
+#rodape1 {
+    text-align: center;
+    background-color: rgb(4, 36, 111);
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
