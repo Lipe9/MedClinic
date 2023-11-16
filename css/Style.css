@@ -11,6 +11,7 @@ body{
     background-position-x: -10lvh;
     background-repeat: no-repeat;
     display: grid;
+    overflow: hidden;
 }
 h1,h2{
   font-family: 'Libre Baskerville', serif;
