@@ -62,7 +62,7 @@ li {
     color: #fff;
     padding: 20px 10px;
     text-align: center;
-    border-radius: 0% 5% 5% 0%;
+    border-radius: 0% 5% 0% 0%;
     box-shadow: 2px 0px 20px rgb(20, 138, 248);
 }
 .list-menu a:hover{
