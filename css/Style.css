@@ -217,4 +217,35 @@ p{
     background-color: #4CAF50;
     border-radius: 5px;
     }
+
+    /* Adicione as seguintes regras de estilo para as animações */
+
+/* Animação para os itens do menu */
+.list-menu a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.list-menu a:hover {
+    color: red; /* Cor de destaque ao passar o mouse */
+}
+
+/* Animação para os botões de redes sociais */
+.boton {
+    transition: transform 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}
+
+/* Animação para o logo */
+.logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: rotate(360deg); /* Gira o logo ao passar o mouse */
+}
+
     
