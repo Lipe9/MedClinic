@@ -201,7 +201,7 @@ p{
     background-color: rgb(4, 36, 111);
     color: #fff;
     padding: 20px;
-    position: relative;
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
