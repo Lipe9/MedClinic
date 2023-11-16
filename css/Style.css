@@ -12,7 +12,6 @@ body{
     background-position-x: -10lvh;
     background-repeat: no-repeat;
     display: grid;
-    overflow: hidden;
 }
 h1,h2{
   font-family: 'Libre Baskerville', serif;
@@ -245,9 +244,6 @@ p{
     transition: transform 0.3s ease;
 }
 
-.logo:hover {
-    transform: rotate(360deg); /* Gira o logo ao passar o mouse */
-}
 /* Adicione as seguintes regras de estilo para os ícones no menu */
 
 .list-menu a {
