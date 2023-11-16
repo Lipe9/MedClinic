@@ -4,13 +4,3 @@
     transform: scale(1.1);
     font-size: 2lvh; 
 }
-
-#rodape1 {
-    text-align: center;
-    background-color: rgb(4, 36, 111);
-    color: #fff;
-    padding: 20px;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-}
