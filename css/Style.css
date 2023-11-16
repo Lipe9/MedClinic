@@ -6,7 +6,8 @@
 }
 
 body{
-    background-image: url(../img/Banner-Noticia_Telemedicina.png);
+    background-image: url(../img/Banner-Noticia_Telemedicina.p);
+    background-color: #7fffd4;
     background-size: cover;
     background-position-x: -10lvh;
     background-repeat: no-repeat;
