@@ -6,12 +6,14 @@
 }
 
 body{
-    background-image: url(../img/Banner-Noticia_Telemedicina.png);
-   
+    background-image: url(../img/Banner-Noticia_Telemedicina.png); 
     background-size: cover;
     background-position-x: -10lvh;
     background-repeat: no-repeat;
     display: grid;
+}
+.body1{
+   overflow: hidden; 
 }
 h1,h2{
   font-family: 'Libre Baskerville', serif;
