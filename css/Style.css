@@ -247,5 +247,24 @@ p{
 .logo:hover {
     transform: rotate(360deg); /* Gira o logo ao passar o mouse */
 }
+/* Adicione as seguintes regras de estilo para os ícones no menu */
+
+.list-menu a {
+    position: relative;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.list-menu a i {
+    margin-right: 10px;
+}
+
+.list-menu a:hover {
+    color: red; /* Cor de destaque ao passar o mouse */
+}
+
+/* Restante do seu estilo permanece o mesmo */
 
     
