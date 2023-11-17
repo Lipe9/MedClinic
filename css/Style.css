@@ -100,7 +100,7 @@ p{
   margin-top: 20%;
   transition: 1000ms;
   display: flex;
-
+z-index: 1000;
 }
 .boton {
   transition: 500ms;
