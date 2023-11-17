@@ -264,16 +264,7 @@ z-index: 1000;
     color: red; /* Cor de destaque ao passar o mouse */
 }
 
-/* Restante do seu estilo permanece o mesmo */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #add8e6;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-}
+
 
 
     
