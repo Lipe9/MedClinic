@@ -77,11 +77,11 @@ select{
     margin: 10px;
     text-decoration: none;
     color: #fff;
-    background-color: #4CAF50;
+    background-color:rgb(4, 36, 111);
     border-radius: 5px;
 }
 
-.button1:hover{
+.button:hover{
   background: transparent;
   color: rgb(4, 36, 111);
   transition: all .4s;
