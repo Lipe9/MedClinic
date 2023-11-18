@@ -66,3 +66,23 @@ select{
     width: 100%;
     bottom: 0;
 }
+.button1{
+  width: 12rem;
+  height: 3rem;
+  background-color: rgb(4, 36, 111);
+  border: none;
+  font-weight: bold;
+  color: var(--titulo);
+  font-size: 16px;
+  padding: 4px;
+  margin-top: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+   }
+.button1:hover{
+  background: transparent;
+  color: rgb(49, 191, 42);
+  transition: all .4s;
+  border: 1px solid rgb(4, 36, 111);
+}
