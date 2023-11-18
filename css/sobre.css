@@ -17,3 +17,6 @@
     width: 100%;
     bottom: 0;
 }
+p:last-child{
+    color: rgb(4, 36, 111);
+}
