@@ -66,20 +66,21 @@ select{
     width: 100%;
     bottom: 0;
 }
-.button1 a{
-  width: 12rem;
-  height: 3rem;
-  background-color: rgb(4, 36, 111);
-  border: none;
-  font-weight: bold;
-  color: var(--titulo);
-  font-size: 16px;
-  padding: 4px;
-  margin-top: 4px;
-  border-radius: 2px;
-  cursor: pointer;
-  transition: all 0.3s ease-in;
-   }
+.cta-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
 .button1:hover{
   background: transparent;
   color: rgb(4, 36, 111);
