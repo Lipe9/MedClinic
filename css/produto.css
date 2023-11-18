@@ -79,11 +79,11 @@ select{
     color: #fff;
     background-color:rgb(4, 36, 111);
     border-radius: 5px;
+    transition: all 0.3s ease-in;
 }
 
-.button:hover .a1:hover{
+.button:hover{
   background: transparent;
-  color: rgb(4, 36, 111);
   transition: all .4s;
   border: 2px solid rgb(4, 36, 111);
 }
