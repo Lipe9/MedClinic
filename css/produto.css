@@ -85,5 +85,5 @@ select{
   background: transparent;
   color: rgb(4, 36, 111);
   transition: all .4s;
-  border: 1px solid rgb(4, 36, 111);
+  border: 2px solid rgb(4, 36, 111);
 }
