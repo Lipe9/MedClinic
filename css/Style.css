@@ -205,21 +205,6 @@ z-index: 1000;
     width: 100%;
     bottom: 0;
 }
-.cta-buttons {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    text-decoration: none;
-    color: #fff;
-    
-    border-radius: 5px;
-    }
-
     /* Adicione as seguintes regras de estilo para as animações */
 
 /* Animação para os itens do menu */
