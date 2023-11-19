@@ -248,7 +248,7 @@ z-index: 1000;
 .list-menu a:hover {
     color: red; /* Cor de destaque ao passar o mouse */
 }
-font-face {
+@font-face {
     font-family: 'Cocobiker';
     src: ('Cocobiker Bold'),('Cocobiker-Bold'),
         url('CocoBikeR-Bold.woff2') format('woff2'),
