@@ -46,7 +46,7 @@ li {
     font-size: 3lvh;
     text-shadow: 1px 1px 10px rgb(70,70,226);
     transition: 500ms;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Coco Biker', sans-serif;
 }
 .nick:hover{
   text-shadow: 1px 1px 10px red;
