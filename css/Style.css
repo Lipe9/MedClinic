@@ -6,12 +6,13 @@
 }
 
 body{
-  background-image: url(../img/Banner-Noticia_Telemedicina.png);
- 
+  background-image: url(../img/Banner-Noticia_Telemedicina.png); 
   background-size: cover;
   background-position-x: -10lvh;
-  background-repeat: no-repeat;
   display: grid;
+}
+.body1{
+ overflow: hidden; 
 }
 h1,h2{
 font-family: 'Libre Baskerville', serif;
@@ -44,7 +45,7 @@ font-family: 'Libre Baskerville', serif;
   font-size: 3lvh;
   text-shadow: 1px 1px 10px rgb(70,70,226);
   transition: 500ms;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Coco Biker', sans-serif;
 }
 .nick:hover{
 text-shadow: 1px 1px 10px red;
@@ -54,7 +55,7 @@ font-size: 3lvh;
 }
 .container {
   display: flex;
-  height: 140vh;
+  height: 150vh;
 }
 .menu {
   background-color: rgb(4, 36, 111);
@@ -98,7 +99,7 @@ cursor: pointer;
 margin-top: 20%;
 transition: 1000ms;
 display: flex;
-
+z-index: 1000;
 }
 .boton {
 transition: 500ms;
@@ -198,26 +199,11 @@ font-weight: 300;
   text-align: center;
   background-color: rgb(4, 36, 111);
   color: #fff;
-  padding: 20px;
+  padding: 5px;
   position: fixed;
   width: 100%;
   bottom: 0;
 }
-.cta-buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px;
-  text-decoration: none;
-  color: #fff;
-  
-  border-radius: 5px;
-  }
-
   /* Adicione as seguintes regras de estilo para as animações */
 
 /* Animação para os itens do menu */
@@ -262,8 +248,6 @@ font-weight: 300;
   color: red; /* Cor de destaque ao passar o mouse */
 }
 
-.rodape1{
-   position: relative;
-}
+
 
   

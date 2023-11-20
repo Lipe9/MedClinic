@@ -4,4 +4,21 @@
     transform: scale(1.1);
     font-size: 2lvh; 
 }
+.equipe{
+    width: 100%;
+    border-radius: 15px
+}
+#rodape1{
+    text-align: center;
+    background-color: rgb(4, 36, 111);
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.p2{
+    color: rgb(4, 36, 111);
+    font-weight: bold;
+}
 

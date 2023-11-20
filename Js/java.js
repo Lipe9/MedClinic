@@ -10,5 +10,3 @@ function atualizarResultado() {
   document.getElementById("botaoEnviar").addEventListener("click", function() {
     alert("Seu formulario foi enviado com sucesso!!");
   });
-
-  
