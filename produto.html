@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedClinic | Produto</title>
+  <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="css/produto.css">
+  <script src="https://kit.fontawesome.com/5c7f78b45b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__botao">
+      <img src="/img/menu_black_24dp (1).svg" alt="Menu aberto">
+    </div>
+    <nav class="cabecalho__menu">
+      <a href="index.html" class="cabecalho__menu-link"><i class="fa fa-home"></i>Home</a>
+      <a href="produto.html" class="cabecalho__menu-link" id="produto2"><i class="fa fa-medkit"></i>Produto</a>
+      <a href="proposta.html" class="cabecalho__menu-link"><i class="fa fa-file-text-o"></i>Proposta</a>
+      <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
+    </nav>
+  </header>
+  <main class="content">
+    <section id="section1">
+        <h2>Serviços MedClinic</h2>
+    </section> 
+    <section id="section2">
+       <h2>Formulário pessoal:</h2>
+        <form action="#" class="form">
+            <input type="text" placeholder="Nome:">
+            <input type="text" placeholder="Idade:">
+            <input type="text" placeholder="CPF:">
+            <input type="email" placeholder="Email:">
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Whatsapp/Telefone:">
+            
+            <div class="endereco">
+                <h2>Endereço:</h2>
+                <input type="text" placeholder="Rua:">
+                <input type="text" placeholder="Bairro:">
+                <input type="text" placeholder="Cidade:">
+                <input type="text" placeholder="CEP:">
+            </div>
+            <div class="container2">
+                <p class="p1">Selecione seu gênero:</p>
+                <label>
+                  <input type="radio" name="genero" value="feminino" id="feminino">
+                  Feminino<br>
+                </label>
+                <label>
+                  <input type="radio" name="genero" value="masculino" id="masculino">
+                  Masculino<br>
+                </label>
+              </div>
+             
+           
+        </form>
+    </section>
+    <section id="section2">
+        <h2>Agendamento:</h2>
+          <div class="menu9">
+            <label for="menu1"  class="label">Clinicas:</label>
+              <select id="menu1" onchange="atualizarResultado()">
+                 <option>Selecione...</option>
+                <option value="Médica Vitalis">Médica Vitalis</option>
+                <option value="Odontológica Sorriso Saudável">Odontológica Sorriso Saudável</option>
+                <option value="Nutrição NutriVida">Nutrição NutriVida</option>
+                <option value="Oftalmologia Visão Clara">Oftalmologia Visão Clara</option>
+              </select>
+            <label for="menu2"  class="label">Doutores</label>
+              <select id="menu2" onchange="atualizarResultado()">
+                  <option>Selecione...</option>
+                <option value="Dr. Benjamin Hartman">Dr. Benjamin Hartman</option>
+                <option value="Dra. Sophia Ramirez">Dra. Sophia Ramirez</option>
+                <option value="Dr. Alexander Anderson">Dr. Alexander Anderson</option>
+                <option value="Dra. Isabella Chang">Dra. Isabella Chang</option>
+              </select>
+          
+            <label for="menu3" class="label">Horários</label>
+              <select id="menu3" onchange="atualizarResultado()">
+                  <option>Selecione...</option>
+                <option value="9:00 - Manhã">9:00 - Manhã</option>
+                <option value="11:00 - Manhã">11:00 - Manhã</option>
+                <option value="13:00 - Tarde">13:00 - Tarde</option>
+                <option value="15:00 - Tarde">15:00 - Tarde</option>
+              </select>
+            </div>
+        
+        <div class="resultado">
+          <h3>Itens Selecionados:</h3>
+          <p id="itemSelecionado">Nenhum item selecionado ainda.</p>
+        </div>
+        
+      
+          <button><a href="produto.html" class="button" id="botaoEnviar">Enviar</button></a>
+    </section>
+    
+    
+</main>
+  <footer class="rodape">
+    <p>Developed</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
