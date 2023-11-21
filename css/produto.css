@@ -13,6 +13,7 @@ section {
   padding: 15px;
   cursor: pointer;
   font-weight: bold;
+  margin: 10px;
 }
 
 #section1{
@@ -27,7 +28,7 @@ text-shadow: 1px 1px 10px rgb(20, 138, 248);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
 }
 select{
-  width: 15%;
+  width: 20%;
   background: transparent;
   cursor: pointer;
   margin: 10px;

@@ -1,0 +1,41 @@
+
+@import url(/css/reset.css);
+@import url(/css/cabecalho.css);
+@import url(/css/rodape.css);
+
+:root {
+  --font-principal: 'Josefin Sans', sans-serif;
+  --font-secundary: 'Rubik Vinyl', cursive;
+  --color-background: #181D31;
+  --color-action: #678983;
+  --color-principal: #F0E9D2;
+  --color-secundary: #E6DDC4;
+  --branco: #fff;
+  --preto: #000000;
+  --azul: #0000ff;
+  --dourado: #f4f42c;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+body {
+  font-family: var(--font-principal);
+  font-size: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.servicos__titulo,
+.contato__titulo {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1em 0;
+}
+i{
+  margin: 10px;
+}
