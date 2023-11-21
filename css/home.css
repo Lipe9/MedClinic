@@ -45,14 +45,16 @@ body {
   text-align: center;
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
-   width: 60%;
+  width: 60%;
   margin-bottom: 20%;
   border-radius: 15px;
- 
   box-shadow: 2px 0px 20px rgb(20, 138, 248);
   padding: 20px;
   cursor: pointer;
+
+  background-color: rgba(0, 0, 0, 0.2);
   }
   #section1 h2{
     font-weight: bold;
+    font-size: 3lvh;
   }

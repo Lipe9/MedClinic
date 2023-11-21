@@ -14,6 +14,7 @@ section {
   cursor: pointer;
   font-weight: bold;
   margin: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #section1{

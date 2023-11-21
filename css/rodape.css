@@ -1,9 +1,10 @@
 
-.rodape {
+.rodape a{
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 2em;
-  background-color: var(--preto);
+  background-color: rgba( 0, 0, 51, 0.8) ;
   color: var(--branco);
+  border-radius: 10px 0px 10px 0px;
 }
