@@ -63,4 +63,11 @@ body {
    width: 25%;
    text-align: center;
  }
- 
+ @media (max-width: 768px) {
+  .body{
+   overflow: hidden;
+  }
+  .cabecalho{
+    background-image: url(../img/arrow_back_white_24dp.svg);
+  }
+}

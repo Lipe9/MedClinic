@@ -60,3 +60,11 @@ function loginUser(e) {
     document.getElementById('login-username').value = '';
     document.getElementById('login-password').value = '';
 }
+
+ // Função para abrir a página
+ function openPage() {
+  // Verifica a largura da janela
+  if (window.innerWidth <= 768) {
+      window.open('mobile.html');
+  }
+}
