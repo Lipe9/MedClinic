@@ -16,14 +16,9 @@ document.querySelector('#btnSignup')
     btnColor.style.left = "110px"
 })
 
-// Verifica a largura da janela sempre que houver uma alteração de tamanho
-window.addEventListener('resize', function(){
-  // Obtém a largura atual da janela
-  var screenWidth = window.innerWidth;
-  
-  // Verifica se a largura é igual a 768 pixels
-  if (screenWidth === 768){
-    // Redireciona para a página com a imagem
-    window.location.href = 'mobile.html';
+function redirecionarPagina() {
+  // Verifica se a largura da janela é menor ou igual a 768px
+  if (window.innerWidth <= 768) {
+      window.location.href = ('mobile.html') ;
   }
-});
+}
