@@ -70,6 +70,9 @@ a:hover:nth-child(3){
   transition: 0.5s ease-in-out;
   transform: scale(1.1);
 }
+.cabecalho__botao2 a:hover{
+  background: transparent;
+}
 .content {
   display: flex;
   width: 100%;
@@ -252,6 +255,7 @@ input {
 
 .overlay {
   background-image: url(../img/fav.jpg);
+ 
   background-size: cover;
   background-position: 0 0;
   background-position-y: -120px;
