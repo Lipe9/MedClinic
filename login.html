@@ -21,35 +21,23 @@
     <div class="cabecalho__botao">
       <img src="img/menu_white_24dp.svg" alt="Menu aberto">
     </div>
-    <div class="cabecalho__botao-use">
-      <img src="img/account_circle_white_24dp.svg" alt="Menu aberto" id="minha-imagem">
-    </div>
     <nav class="cabecalho__menu">
       <a href="index.html" class="cabecalho__menu-link" id="home2"><i class="fa fa-home"></i>Home</a>
-      <a href="produto.html" class="cabecalho__menu-link"><i class="fa fa-medkit"></i>Produto</a>
-      <a href="proposta.html" class="cabecalho__menu-link"><i class="fa fa-file-text-o"></i>Proposta</a>
-      <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
-      <div class="social">
-        <a href="https://www.instagram.com/medclinic_ds/"><img src="img/icon-instagram.svg" alt="instagram"></a>
-        <a href="https://github.com/Fellipe157/MedClinic"><img src="img/icons8-github.svg" alt="github"></a>
-        <a href="#"><img src="img/icon-whatsapp.svg" alt="whatsapp"></a>
-      </div>
-      
     </nav>
   </header>
   <div class="container" id="container">
 
     <div class="form-container register-container">
       <form action="#">
-        <h1>Register hire.</h1>
-        <input type="text" placeholder="Name">
+        <h1>Cadastro</h1>
+        <input type="text" placeholder="Nome">
         <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <button>Register</button>
-        <span>or use your account</span>
+        <input type="password" placeholder="Senha">
+        <button>Cadastro</button>
+        <span>ou use sua conta</span>
         <div class="social-container">
           <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
-          <a href="#" class="social"><i class="lni lni-google"></i></a>
+          <a href="#" class="social"><i class="lni lni-google" id="google-icon"></i></a>
           <a href="#" class="social"><i class="lni lni-linkedin-original"></i></a>
         </div>
       </form>
@@ -57,20 +45,20 @@
 
     <div class="form-container login-container">
       <form action="#">
-        <h1>Login hire.</h1>
+        <h1>Login</h1>
         <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Senha">
         <div class="content">
           <div class="checkbox">
             <input type="checkbox" name="checkbox" id="checkbox">
-            <label>Remember me</label>
+            <label>Lembra de mim?</label>
           </div>
           <div class="pass-link">
-            <a href="#">Forgot password?</a>
+            <a href="#">Esqueceu a senha?</a>
           </div>
         </div>
         <button>Login</button>
-        <span>or use your account</span>
+        <span>ou use sua conta</span>
         <div class="social-container">
           <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
           <a href="#" class="social"><i class="lni lni-google"></i></a>
@@ -82,16 +70,16 @@
     <div class="overlay-container">
       <div class="overlay">
         <div class="overlay-panel overlay-left">
-          <h1 class="title">Hello <br> friends</h1>
-          <p>if Yout have an account, login here and have fun</p>
+          <h1 class="title">Olá <br> amigos</h1>
+          <p>se você não possui uma conta, faça login aqui e divirta-se.</p>
           <button class="ghost" id="login">Login
             <i class="lni lni-arrow-left login"></i>
           </button>
         </div>
         <div class="overlay-panel overlay-right">
-          <h1 class="title">Start yout <br> journy now</h1>
-          <p>if you don't have an account yet, join us and start your journey.</p>
-          <button class="ghost" id="register">Register
+          <h1 class="title">Comece a sua <br> viagem agora</h1>
+          <p>se você ainda não tem uma conta, junte-se a nós e comece sua jornada.</p>
+          <button class="ghost" id="register">Cadastro
             <i class="lni lni-arrow-right register"></i>
           </button>
         </div>

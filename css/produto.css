@@ -70,3 +70,14 @@ border: 2px solid rgb(4, 36, 111);
 .a1{
   color: white;
 }
+@media (max-width: 768px) {
+  .body{
+   overflow: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+ .body{
+   overflow: hidden;
+  }
+}

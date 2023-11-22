@@ -46,3 +46,14 @@ span{
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(4, 36, 111);
 }
+@media (max-width: 768px) {
+   .body{
+    overflow: hidden;
+   }
+}
+
+@media (max-width: 480px) {
+  .body{
+    overflow: hidden;
+   }
+}
