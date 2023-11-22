@@ -67,7 +67,4 @@ body {
   .body{
    overflow: hidden;
   }
-  .cabecalho{
-    background-image: url(../img/arrow_back_white_24dp.svg);
-  }
 }
