@@ -26,8 +26,23 @@ text-shadow: 1px 1px 10px rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
 }
+#section3{
+  border-left: 5px solid rgb(4, 36, 111);
+}
+#section3 h2{
+  color: rgb(4, 36, 111);
+  font-weight: bold;
+}
+p{
+  margin: 6px;
+}
+span{
+  color: rgb(4, 36, 111);
+  font-weight: bold;
+}
 .equipe img{
   margin: 5px;
   width: 40%;
   border-radius: 15px;
+  box-shadow: 2px 0px 20px rgb(4, 36, 111);
 }
