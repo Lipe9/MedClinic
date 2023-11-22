@@ -22,7 +22,7 @@ section {
  color: rgb(4, 36, 111);
  text-shadow: 1px 1px 10px rgb(4, 36, 111);
  }
- img{
+ .img1{
    width: 100%;
    border-radius: 15px;
  }

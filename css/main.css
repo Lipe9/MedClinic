@@ -13,7 +13,10 @@
   --branco: #fff;
   --preto: #000000;
 }
-
+.social{
+  width: 25%;
+  text-align: center;
+}
 .container {
   width: 90vw;
   margin: 0 auto;
