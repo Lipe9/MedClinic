@@ -1,4 +1,27 @@
+body{
+   background-color: black;
+}
 #proposta1{
    border-bottom: 3px solid rgb(20, 138, 248);
    border-radius: 10px;
 }
+section {
+   margin-bottom: 20px;
+   border-radius: 15px;
+   box-shadow: 2px 0px 20px rgb(20, 138, 248);
+   padding: 15px;
+   cursor: pointer;
+   font-weight: bold;
+   margin: 10px;
+   background-color: rgba(0, 0, 0, 0.1);
+ }
+ 
+ #section1{
+ border-left: 5px solid rgb(4, 36, 111);
+ text-align: center;
+ color: rgb(4, 36, 111);
+ text-shadow: 1px 1px 10px rgb(20, 138, 248);
+ }
+ img{
+   width: 80%;
+ }
