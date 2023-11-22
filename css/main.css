@@ -12,22 +12,18 @@
   --color-secundary: #E6DDC4;
   --branco: #fff;
   --preto: #000000;
-  --azul: #0000ff;
-  --dourado: #f4f42c;
 }
 
 .container {
   width: 90vw;
   margin: 0 auto;
 }
-
 body {
   font-family: var(--font-principal);
   font-size: 100%;
   width: 100vw;
   height: 100vh;
 }
-
 .servicos__titulo,
 .contato__titulo {
   font-size: 24px;

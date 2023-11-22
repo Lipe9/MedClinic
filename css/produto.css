@@ -46,7 +46,7 @@ input{
     margin: 15px;
 }
 input::placeholder {
-  color: white;
+  color: black;
 }
 
 .cta-buttons {
