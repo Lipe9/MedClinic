@@ -26,3 +26,8 @@ section {
    width: 100%;
    border-radius: 15px;
  }
+ @media (max-width: 480px) {
+   body{
+      overflow: hidden;
+   }
+ }
