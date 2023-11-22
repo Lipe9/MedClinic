@@ -27,3 +27,36 @@ function atualizarResultado() {
 document.getElementById("botaoEnviar").addEventListener("click", function() {
   alert("Seu formulario foi enviado com sucesso!!");
 });
+
+
+
+document.getElementById('register-form').addEventListener('submit', registerUser);
+document.getElementById('login-form').addEventListener('submit', loginUser);
+
+function registerUser(e) {
+    e.preventDefault();
+    
+    var username = document.getElementById('register-username').value;
+    var password = document.getElementById('register-password').value;
+    
+    // Fazer algo com os dados de registro
+    console.log('Registrado:', username, password);
+    
+    // Limpar os campos
+    document.getElementById('register-username').value = '';
+    document.getElementById('register-password').value = '';
+}
+
+function loginUser(e) {
+    e.preventDefault();
+    
+    var username = document.getElementById('login-username').value;
+    var password = document.getElementById('login-password').value;
+    
+    // Fazer algo com os dados de login
+    console.log('Logado:', username, password);
+    
+    // Limpar os campos
+    document.getElementById('login-username').value = '';
+    document.getElementById('login-password').value = '';
+}

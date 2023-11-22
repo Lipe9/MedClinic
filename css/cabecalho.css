@@ -55,3 +55,9 @@ i{
    border-bottom: 3px solid rgb(20, 138, 248);
    border-radius: 10px;
 }
+
+.cabecalho__botao-use{
+   position: fixed;
+   left: 0;
+   margin-left: 23px;
+}
