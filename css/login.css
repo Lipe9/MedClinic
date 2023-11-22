@@ -252,7 +252,6 @@ input {
 
 .overlay {
   background-image: url(../img/fav.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
   background-position-y: -120px;
