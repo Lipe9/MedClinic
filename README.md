@@ -1,4 +1,4 @@
-# MedClinic
+<i><b><h1> MedClinic </h1>
 Um trabalho escolar na disciplina se Gestão de Startup II.
 
 Membros:<br>
@@ -7,7 +7,7 @@ Kaio Alves <br>
 Ana Giselly <br>
 Days Morais <br>
 Venicio Morais <br>
-Vinicius Maciel <br>
+Vinicius Maciel <br> </i></b>
 
 <div class="p2">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
