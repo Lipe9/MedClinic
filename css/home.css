@@ -19,16 +19,12 @@ body {
 
 .destaque {
   display: flex;
- 
-  padding: 0.5em;
   border-radius: 15%;
-  margin-bottom: 100px;
+  justify-content: center;
 }
-
 .destaque__imagem {
-  width: 150px;
+  width: 50%;
   border-radius: 15%;
-  box-shadow: 1px 2px 20px  rgb(4, 36, 111);
 }
 
 .destaque__titulo {
@@ -47,17 +43,19 @@ body {
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
   width: 60%;
-  margin-bottom: 20%;
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(20, 138, 248);
   padding: 20px;
   cursor: pointer;
+  margin-bottom: 250px;
 
   background-color: rgba(0, 0, 0, 0.2);
   }
-  #section1 h2{
+  #section1 h2 ,h1{
     font-weight: bold;
     font-size: 3lvh;
+    margin: 5px;
+    
   }
  .social{
    width: 25%;
@@ -67,4 +65,61 @@ body {
   .body{
    overflow: hidden;
   }
+}
+
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.service {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+}
+
+.service h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: #666;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.testimonial {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.testimonial p {
+  font-weight: bold;
 }

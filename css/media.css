@@ -1,0 +1,63 @@
+@media (max-width: 320px) {
+        .container{
+            min-height: 350px;
+            
+        }
+        h1 {
+            font-weight: 700;
+            letter-spacing: -1.5px;
+            margin: 0;
+            margin-top: 50px;
+          }
+          
+          h1.title {
+           display: none;
+            text-shadow: 0 0 10px rgb(4, 36, 111);
+          }
+          
+        button{
+            width: 250%;
+            padding: 10px 1px;
+        }
+        .social-container, span{
+            display: flex;
+            position: relative;
+            top: -32px;
+        }
+        
+        
+    }
+@media (max-width: 375px) {
+    .social-container, span{
+        display: flex;
+        position: relative;
+        bottom: 20px;
+    }
+    button{
+        width: 200%;
+        padding: 10px 1px;
+    }
+    button.ghost{
+        width: 150%;
+    }
+   
+
+}
+@media (max-width: 425px) {
+    input{
+        width: 170%;
+      }
+      button.ghost{
+        width: 150%;
+    }
+    button{
+        width: 180%;
+        padding: 10px 1px;
+    }
+    .overlay{
+        background-position-y: 1px;
+        background-size: cover;
+    }
+    
+}
+

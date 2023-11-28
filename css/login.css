@@ -117,6 +117,7 @@ button {
   letter-spacing: 1px;
   text-transform: capitalize;
   transition: 0.3s ease-in-out;
+  text-align: center;
 }
 
 button:hover {
@@ -267,7 +268,6 @@ input {
   transform: translateX(0);
   transition: transform 0.6s ease-in-out;
 }
-
 .overlay::before {
   content: "";
   position: absolute;
