@@ -1,11 +1,13 @@
-body{
+body {
   background-image: url(../img/Banner-Noticia_Telemedicina.png);
   background-size: cover;
 }
-#produto2{
+
+#produto2 {
   border-bottom: 3px solid rgb(20, 138, 248);
-   border-radius: 10px;
+  border-radius: 10px;
 }
+
 section {
   margin-bottom: 20px;
   border-radius: 15px;
@@ -17,34 +19,39 @@ section {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-#section1{
-border-left: 5px solid rgb(4, 36, 111);
-text-align: center;
-color: rgb(4, 36, 111);
-text-shadow: 1px 1px 10px rgb(20, 138, 248);
+#section1 {
+  border-left: 5px solid rgb(4, 36, 111);
+  text-align: center;
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
 }
-#section2{
+
+#section2 {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
 }
-select{
+
+select {
   width: 20%;
   background: transparent;
   cursor: pointer;
   margin: 10px;
   display: flex;
 }
-.op{
+
+.op {
   text-align: center;
 }
-input{
-    border: 0px;
-    border-bottom: 3px solid rgb(4, 36, 111);
-    background-color: transparent   ;
-    border-radius: 4px;
-    margin: 15px;
+
+input {
+  border: 0px;
+  border-bottom: 3px solid rgb(4, 36, 111);
+  background-color: transparent;
+  border-radius: 4px;
+  margin: 15px;
 }
+
 input::placeholder {
   color: black;
 }
@@ -53,36 +60,46 @@ input::placeholder {
   text-align: center;
   margin-top: 20px;
 }
+
 .button {
   display: inline-block;
   padding: 10px 20px;
   margin: 10px;
   text-decoration: none;
-  background-color:rgb(4, 36, 111);
+  background-color: rgb(4, 36, 111);
   border-radius: 5px;
   transition: all 0.3s ease-in;
 }
-.button:hover{
-background: transparent;
-transition: all .4s;
-border: 2px solid rgb(4, 36, 111);
+
+.button:hover {
+  background: transparent;
+  transition: all .4s;
+  border: 2px solid rgb(4, 36, 111);
 }
-.a1{
+
+.a1 {
   color: white;
 }
 
 @media (max-width: 320px) {
-    select{
-      width: 100%;
-    }
-}
-@media (max-width: 375px) {
-  select{
+  select {
     width: 100%;
   }
 }
+
+@media (max-width: 375px) {
+  select {
+    width: 100%;
+  }
+}
+
 @media (max-width: 425px) {
-  select{
+  select {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  select {
     width: 100%;
   }
 }

@@ -24,9 +24,19 @@ function atualizarResultado() {
   resultado.textContent = `Selecionado: ${menu1}, ${menu2}, ${menu3}`;
 }
 
+
 document.getElementById("botaoEnviar").addEventListener("click", function() {
-  alert("Seu formulario foi enviado com sucesso!!");
-});
+  
+    // Obtém os valores dos campos de entrada
+    var name = document.getElementById("name").value;
+    // Cria uma mensagem de alerta com os valores
+    alert(`Olá, ${name}, seu formulário foi enviado com sucesso!!`);
+  });
+
+
+
+  
+
 
 
 
