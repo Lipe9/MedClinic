@@ -20,6 +20,7 @@ body {
   display: flex;
   border-radius: 15%;
   justify-content: center;
+  margin-bottom: 55px;
 }
 
 .destaque__imagem {
@@ -63,6 +64,9 @@ h1 {
 @media (max-width: 768px) {
   .body {
     overflow: hidden;
+  }
+  #section1{
+    margin-bottom: 180px;
   }
 }
 
