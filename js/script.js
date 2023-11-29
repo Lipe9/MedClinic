@@ -31,15 +31,8 @@ document.getElementById("botaoEnviar").addEventListener("click", function() {
     var name = document.getElementById("name").value;
     // Cria uma mensagem de alerta com os valores
     alert(`Olá, ${name}, seu formulário foi enviado com sucesso!!
-Obrigado pela preferência!! volte sempre!! :)`);
+Obrigado pela preferência!! volte sempre :)`);
   });
-
-
-
-  
-
-
-
 
 document.getElementById('register-form').addEventListener('submit', registerUser);
 document.getElementById('login-form').addEventListener('submit', loginUser);

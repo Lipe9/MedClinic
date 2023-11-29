@@ -7,7 +7,7 @@
 
 body {
   display: flex;
-  background-color: #6699ff;
+  background:var(--fundo3);
   justify-content: center;
   align-items: center;
   flex-direction: column;

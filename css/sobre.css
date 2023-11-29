@@ -1,5 +1,5 @@
 body{
-  background-color: #66cccc;
+  background:var(--fundo7);
 }
 #sobre1{
   border-bottom: 3px solid rgb(20, 138, 248);
@@ -25,6 +25,8 @@ text-shadow: 1px 1px 10px rgb(4, 36, 111);
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
+  display: flex;
+  justify-content: center;
 }
 #section3{
   border-left: 5px solid rgb(4, 36, 111);

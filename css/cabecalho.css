@@ -40,7 +40,7 @@
 
 .cabecalho__menu-link {
   text-transform: uppercase;
-  color: var(--branco);
+  color: var(--font);
   padding-bottom: 0.0em;
   transition: ease-in;
   text-shadow: 1px 1px 10px rgb(20, 138, 248);

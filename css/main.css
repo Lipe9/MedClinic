@@ -6,12 +6,16 @@
 :root {
   --font-principal: 'Josefin Sans', sans-serif;
   --font-secundary: 'Rubik Vinyl', cursive;
-  --color-background: #181D31;
-  --color-action: #678983;
-  --color-principal: #F0E9D2;
-  --color-secundary: #E6DDC4;
-  --branco: #fff;
-  --preto: #000000;
+  
+  --font: #fff;
+
+  --fundo1: #061044;
+  --fundo2: #054EBB;
+  --fundo3: #053A80;
+  --fundo4: #075CFF;
+  --fundo5: #38B6FF;
+  --fundo6: #034172;
+  --fundo7: #008CEF; 
 }
 .social{
   width: 25%;

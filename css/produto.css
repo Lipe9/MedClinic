@@ -1,6 +1,7 @@
 body {
   background-image: url(../img/Banner-Noticia_Telemedicina.png);
   background-size: cover;
+  overflow-x: hidden;
 }
 
 #produto2 {
@@ -39,7 +40,7 @@ section {
 }
 
 select {
-  width: 100%;
+  width: 99%;
   background: transparent;
   cursor: pointer;
   margin: 10px;
