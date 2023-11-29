@@ -16,7 +16,7 @@ section {
   cursor: pointer;
   font-weight: bold;
   margin: 10px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #section1 {
@@ -25,12 +25,13 @@ section {
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
 }
-label{
-  text-align: center;
+
+.label {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 #section2 {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
@@ -103,11 +104,10 @@ input::placeholder {
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
   select {
     width: 100%;
   }
-  .label{
-    text-align: center;
-  }
+
 }
