@@ -60,4 +60,10 @@
     }
     
 }
+@media (max-width: 768px){
+    .social-container, span{
+        display: flex;
+    }
+    
+}
 
