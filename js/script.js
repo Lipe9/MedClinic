@@ -30,7 +30,8 @@ document.getElementById("botaoEnviar").addEventListener("click", function() {
     // Obtém os valores dos campos de entrada
     var name = document.getElementById("name").value;
     // Cria uma mensagem de alerta com os valores
-    alert(`Olá, ${name}, seu formulário foi enviado com sucesso!!`);
+    alert(`Olá, ${name}, seu formulário foi enviado com sucesso!!
+Obrigado pela preferência!! volte sempre!! :)`);
   });
 
 
