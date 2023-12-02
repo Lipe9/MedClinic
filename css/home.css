@@ -55,18 +55,38 @@ h1 {
   margin: 5px;
 
 }
-
 .social {
-  width: 25%;
+  font-size: 5lvh;
   text-align: center;
 }
-
+.iicon1{
+  background-image: url(../img/insta.jpg);
+  color: white;
+  background-size: cover;
+  border-radius: 9px;
+}
+.iicon2{
+  background-color: black;
+  color: white;
+  border-radius: 52%;
+}
+.iicon3{
+  background-color: rgb(43, 255, 0);
+  color: white;
+  border-radius: 50% 50% 50% 0px;
+}
 @media (max-width: 768px) {
   .body {
     overflow: hidden;
   }
   #section1{
     margin-bottom: 200px;
+  }
+  .social {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
