@@ -41,11 +41,14 @@ section {
 
 select {
   width: 99%;
-  background: transparent;
+  text-align: center;
   cursor: pointer;
   margin: 10px;
   display: flex;
+  font-weight: bold;
+  border-radius: 5px;
 }
+
 
 .op {
   text-align: center;
@@ -54,13 +57,13 @@ select {
 input {
   border: 0px;
   border-bottom: 3px solid rgb(4, 36, 111);
-  background-color: transparent;
-  border-radius: 4px;
+  border-radius: 5px;
   margin: 15px;
 }
 
 input::placeholder {
   color: black;
+  font-weight: bold;
 }
 
 .cta-buttons {
@@ -83,11 +86,9 @@ input::placeholder {
   transition: all .4s;
   border: 2px solid rgb(4, 36, 111);
 }
-
 .a1 {
   color: white;
 }
-
 @media (max-width: 320px) {
   select {
     width: 100%;
@@ -110,5 +111,7 @@ input::placeholder {
   select {
     width: 100%;
   }
-
+  #campo , #name{
+    width: 90%;
+  }
 }
