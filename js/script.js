@@ -24,16 +24,6 @@ function atualizarResultado() {
   resultado.textContent = `${menu1}, ${menu2}, ${menu3}`;
 }
 
-
-document.getElementById("botaoEnviar").addEventListener("click", function() {
-  
-    // Obtém os valores dos campos de entrada
-    var name = document.getElementById("name").value;
-    // Cria uma mensagem de alerta com os valores
-    alert(`Olá, ${name}, seu formulário foi enviado com sucesso!!
-Obrigado pela preferência!! volte sempre :)`);
-  });
-
 document.getElementById('register-form').addEventListener('submit', registerUser);
 document.getElementById('login-form').addEventListener('submit', loginUser);
 
@@ -63,4 +53,8 @@ function loginUser(e) {
     // Limpar os campos
     document.getElementById('login-username').value = '';
     document.getElementById('login-password').value = '';
+}
+
+function recarregarPagina() {
+  location.reload();
 }

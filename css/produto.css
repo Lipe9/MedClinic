@@ -79,6 +79,7 @@ input::placeholder {
   background-color: rgb(4, 36, 111);
   border-radius: 5px;
   transition: all 0.3s ease-in;
+  color: white;
 }
 
 .button:hover {
@@ -114,4 +115,14 @@ input::placeholder {
   #campo , #name{
     width: 90%;
   }
+}
+
+.swal2-popup{
+    box-shadow: 0 0 10px rgb(20, 138, 248);
+    border-radius: 30px;
+
+}
+
+.swal2-styled{
+   background-color: rgb(20, 138, 248);
 }
