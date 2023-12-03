@@ -42,3 +42,11 @@ body {
 i{
   margin: 10px;
 }
+.social .icon{
+  font-size: 5lvh;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px rgb(20, 138, 248);
+  transition: all 0.4s ease-in-out;
+}
+

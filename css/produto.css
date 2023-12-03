@@ -120,9 +120,8 @@ input::placeholder {
 .swal2-popup{
     box-shadow: 0 0 10px rgb(20, 138, 248);
     border-radius: 30px;
-
 }
-
-.swal2-styled{
-   background-color: rgb(20, 138, 248);
+.swal2-success-ring{
+  color: rgb(20, 138, 248);
+  box-shadow: 0 0 10px rgb(20, 138, 248);
 }

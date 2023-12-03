@@ -22,12 +22,10 @@ body {
   justify-content: center;
   margin-bottom: 60px;
 }
-
 .destaque__imagem {
   width: 50%;
   border-radius: 15%;
 }
-
 #home2 {
   border-bottom: 3px solid rgb(20, 138, 248);
   border-radius: 10px;
@@ -40,7 +38,7 @@ body {
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
   width: 60%;
   border-radius: 15px;
-  box-shadow: 2px 0px 20px rgb(20, 138, 248);
+  box-shadow: 8px 007px rgb(4, 36, 111);
   padding: 20px;
   cursor: pointer;
   margin-bottom: 250px;
@@ -55,26 +53,7 @@ h1 {
   margin: 5px;
 
 }
-.social {
-  font-size: 5lvh;
-  text-align: center;
-}
-.iicon1{
-  background-image: url(../img/insta.jpg);
-  color: white;
-  background-size: cover;
-  border-radius: 9px;
-}
-.iicon2{
-  background-color: black;
-  color: white;
-  border-radius: 52%;
-}
-.iicon3{
-  background-color: rgb(43, 255, 0);
-  color: white;
-  border-radius: 50% 50% 50% 0px;
-}
+
 @media (max-width: 768px) {
   .body {
     overflow: hidden;
