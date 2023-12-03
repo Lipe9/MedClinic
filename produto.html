@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="180">
   <title>MedClinic | Produto</title>
   <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,19 +47,24 @@
     </section>
     <section id="section2">
       <h2>Formulário pessoal:</h2>
-      <form action="#" class="form" id="myForm">
-        <input type="text" placeholder="Nome:" id="name" name="name" required >
-        <input type="text" placeholder="Data de Nascimento:" id="campo" required>
-        <input type="number" placeholder="CPF:" id="campo" required>
-        <input type="email" placeholder="Email:" id="campo" required>
+      <form action="https://formspree.io/f/mdorrrke" class="form" id="myForm" method="POST">
+
+        <input type="text" placeholder="Nome:" id="name" name="name">
+        <input type="text" placeholder="Data de Nascimento:" name="data_de_nascimento" id="campo">
+
+        <input type="number" placeholder="CPF:" name="cpf" id="campo">
+
+        <input type="email" placeholder="Email:" name="email" id="campo">
+
         <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Whatsapp/Telefone:" id="campo">
 
+      </form>
         <div class="endereco">
           <h2>Endereço:</h2>
-          <input type="text" placeholder="Rua:" id="campo">
-          <input type="text" placeholder="Bairro:" id="campo">
-          <input type="text" placeholder="Cidade:" id="campo">
-          <input type="number" placeholder="CEP:"  id="campo">
+          <input type="text" placeholder="Rua:" id="campo" name="rua">
+          <input type="text" placeholder="Bairro:" id="campo" name="bairro">
+          <input type="text" placeholder="Cidade:" id="campo" name="cidade">
+          <input type="number" placeholder="CEP:"  id="campo" name="cep">
         </div>
         <div class="container2">
           <p class="p1">Gênero:</p>
@@ -73,13 +79,13 @@
         </div>
 
 
-      </form>
+      
     </section>
     <section id="section2">
       <h2>Agendamento:</h2>
       <div class="menu9">
         <label for="menu1" class="label">Clinicas:</label>
-        <select id="menu1" onchange="atualizarResultado()">
+        <select id="menu1" onchange="atualizarResultado()" name="clinica">
           <option class="op">--Selecione--</option>
           <option value="Médica Vitalis">Médica Vitalis</option>
           <option value="Odontológica Sorriso Saudável">Odontológica Sorriso Saudável</option>
@@ -87,7 +93,7 @@
           <option value="Oftalmologia Visão Clara">Oftalmologia Visão Clara</option>
         </select>
         <label for="menu2" class="label">Doutores</label>
-        <select id="menu2" onchange="atualizarResultado()">
+        <select id="menu2" onchange="atualizarResultado()" name="doutor">
           <option class="op">--Selecione--</option>
           <option value="Dr. Benjamin Hartman">Dr. Benjamin Hartman</option>
           <option value="Dra. Sophia Ramirez">Dra. Sophia Ramirez</option>
@@ -96,7 +102,7 @@
         </select>
 
         <label for="menu3" class="label">Horários</label>
-        <select id="menu3" onchange="atualizarResultado()">
+        <select id="menu3" onchange="atualizarResultado()" name="hora">
           <option class="op">--Selecione--</option>
           <option value="9:00 - Manhã">9:00 - Manhã</option>
           <option value="11:00 - Manhã">11:00 - Manhã</option>
@@ -112,10 +118,10 @@
 
 
       <div class="cta-buttons">
-      <button class="button" onclick="alerta()">Enviar</button>
+      <input class="button" onclick="alerta()" type="submit"></input>
       </div>
     </section>
-
+  
 
   </main>
   <footer class="rodape">
@@ -125,4 +131,6 @@
   <script src="js/script.js"></script>
   <script src="sweetalert2.all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
 </body>

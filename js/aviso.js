@@ -5,7 +5,7 @@ function alerta() {
     title: `Olá, ${name}!`,
 
     text: `O seu formulário foi enviado com sucesso.
-    Obrigado pela preferência, volte sempre :)`,
+        Obrigado pela preferência!! volte sempre :)`,
 
     icon: "success",
 
@@ -17,6 +17,5 @@ function alerta() {
 
   });
   
-
 }
 

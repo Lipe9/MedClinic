@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
 form.addEventListener("submit", function(event) {
     event.preventDefault(); 
   
-    const username = document.getElementById("nm-usuario").value;
-    const password = document.getElementById("senha").value;
+    const username = document.getElementById("nm-usuario1").value;
+    const password = document.getElementById("senha1").value;
   
     if (username !== "" && password !== "") {
       window.location.href = "index.html"; 
@@ -49,4 +49,23 @@ form.addEventListener("submit", function(event) {
         }
       });
     });
+
+    function togglePasswordVisibility() {
+      const campoSenha = document.getElementById('senha');
+      const eyeIconOpen = document.getElementById('eye-icon-open');
+      const eyeIconClosed = document.getElementById('eye-icon-closed');
+      
+     
     
+      if (campoSenha.type === 'password') {
+        campoSenha.type = 'text';
+        eyeIconOpen.style.display = 'none';
+        eyeIconClosed.style.display = 'block';
+     
+        
+      } else {
+        campoSenha.type = 'password';
+        eyeIconOpen.style.display = 'block';
+        eyeIconClosed.style.display = 'none';
+      }
+    }
