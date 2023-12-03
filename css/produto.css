@@ -121,6 +121,9 @@ input::placeholder {
   #campo , #name{
     width: 90%;
   }
+  #texto{
+    background-color: white;
+  }
 }
 
 .swal2-popup{
