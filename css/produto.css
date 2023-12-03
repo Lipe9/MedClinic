@@ -53,7 +53,12 @@ select {
 .op {
   text-align: center;
 }
-
+.me{
+  margin: 5px;
+}
+#texto{
+  width: 100%;
+}
 input {
   border: 0px;
   border-bottom: 3px solid rgb(4, 36, 111);
