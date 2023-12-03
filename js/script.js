@@ -54,7 +54,3 @@ function loginUser(e) {
     document.getElementById('login-username').value = '';
     document.getElementById('login-password').value = '';
 }
-
-function recarregarPagina() {
-  location.reload();
-}

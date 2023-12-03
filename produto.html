@@ -47,45 +47,46 @@
     </section>
     <section id="section2">
       <h2>Formulário pessoal:</h2>
-      <form action="https://formspree.io/f/mdorrrke" class="form" id="myForm" method="POST">
 
-        <input type="text" placeholder="Nome:" id="name" name="name">
-        <input type="text" placeholder="Data de Nascimento:" name="data_de_nascimento" id="campo">
+      <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm">
+      
+          <input type="text" placeholder="Nome:" id="name" name="Nome" required>
+       
+          <input type="text" placeholder="Data de Nascimento:" name="Data de Nascimento" id="campo" required>
+        
+          <input type="number" placeholder="CPF:" name="Cpf" id="campo" required>
+       
+          <input type="email" placeholder="Email:" name="Email" id="campo" required>
 
-        <input type="number" placeholder="CPF:" name="cpf" id="campo">
-
-        <input type="email" placeholder="Email:" name="email" id="campo">
-
-        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Whatsapp/Telefone:" id="campo">
-
-      </form>
-        <div class="endereco">
+          <input type="tel" name="Telefone"  placeholder="Whatsapp/Telefone:" id="campo" required>
+    
+     
           <h2>Endereço:</h2>
-          <input type="text" placeholder="Rua:" id="campo" name="rua">
-          <input type="text" placeholder="Bairro:" id="campo" name="bairro">
-          <input type="text" placeholder="Cidade:" id="campo" name="cidade">
-          <input type="number" placeholder="CEP:"  id="campo" name="cep">
-        </div>
-        <div class="container2">
+
+          <input type="text" placeholder="Rua:" id="campo" name="Rua" required>
+
+          <input type="text" placeholder="Bairro:" id="campo" name="Bairro" required>
+
+          <input type="text" placeholder="Cidade:" id="campo" name="Cidade" required>
+
+          <input type="number" placeholder="CEP:"  id="campo" name="Cep" required>
+
           <p class="p1">Gênero:</p>
           <label>
-            <input type="radio" name="genero" value="feminino" id="feminino">
+            <input type="radio" name="Gênero" value="feminino" id="feminino" required>
             Feminino<br>
           </label>
           <label>
-            <input type="radio" name="genero" value="masculino" id="masculino">
+            <input type="radio" name="Gênero" value="masculino" id="masculino" required>
             Masculino<br>
           </label>
-        </div>
-
-
       
     </section>
     <section id="section2">
       <h2>Agendamento:</h2>
       <div class="menu9">
         <label for="menu1" class="label">Clinicas:</label>
-        <select id="menu1" onchange="atualizarResultado()" name="clinica">
+        <select id="menu1" onchange="atualizarResultado()" name="Clinica" required>
           <option class="op">--Selecione--</option>
           <option value="Médica Vitalis">Médica Vitalis</option>
           <option value="Odontológica Sorriso Saudável">Odontológica Sorriso Saudável</option>
@@ -93,7 +94,7 @@
           <option value="Oftalmologia Visão Clara">Oftalmologia Visão Clara</option>
         </select>
         <label for="menu2" class="label">Doutores</label>
-        <select id="menu2" onchange="atualizarResultado()" name="doutor">
+        <select id="menu2" onchange="atualizarResultado()" name="Doutor" required>
           <option class="op">--Selecione--</option>
           <option value="Dr. Benjamin Hartman">Dr. Benjamin Hartman</option>
           <option value="Dra. Sophia Ramirez">Dra. Sophia Ramirez</option>
@@ -102,7 +103,7 @@
         </select>
 
         <label for="menu3" class="label">Horários</label>
-        <select id="menu3" onchange="atualizarResultado()" name="hora">
+        <select id="menu3" onchange="atualizarResultado()" name="Horário" required>
           <option class="op">--Selecione--</option>
           <option value="9:00 - Manhã">9:00 - Manhã</option>
           <option value="11:00 - Manhã">11:00 - Manhã</option>
@@ -118,7 +119,8 @@
 
 
       <div class="cta-buttons">
-      <input class="button" onclick="alerta()" type="submit"></input>
+      <input class="button" type="submit" required></input>
+      </form>
       </div>
     </section>
   
@@ -129,8 +131,9 @@
   </footer>
    <script src="js/aviso.js"></script>
   <script src="js/script.js"></script>
-  <script src="sweetalert2.all.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+ <!--<script src="sweetalert2.all.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+-----> 
 
   
 </body>
