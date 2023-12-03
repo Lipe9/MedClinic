@@ -49,4 +49,11 @@ i{
   text-shadow: 0 0 10px rgb(20, 138, 248);
   transition: all 0.4s ease-in-out;
 }
-
+@media (max-width: 768px) {
+  .social {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
