@@ -80,6 +80,7 @@ input::placeholder {
   border-radius: 5px;
   transition: all 0.3s ease-in;
   color: white;
+  border: 2px solid transparent;
 }
 
 .button:hover {
