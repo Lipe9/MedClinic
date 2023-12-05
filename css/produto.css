@@ -1,5 +1,5 @@
 body {
-  background-image: url(../img/Banner-Noticia_Telemedicina.png);
+  background-color: var(--fundo5);
   background-size: cover;
   overflow-x: hidden;
 }
@@ -13,10 +13,10 @@ section {
   margin-bottom: 20px;
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(20, 138, 248);
-  padding: 15px;
+  padding: 20px 20px;
   cursor: pointer;
   font-weight: bold;
-  margin: 10px;
+  margin: 5px;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -37,8 +37,8 @@ section {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
+  padding-right: 40px;
 }
-
 select {
   width: 99%;
   text-align: center;
@@ -59,11 +59,26 @@ select {
 #texto{
   width: 100%;
 }
+
 input {
   border: 0px;
   border-bottom: 3px solid rgb(4, 36, 111);
   border-radius: 5px;
-  margin: 15px;
+  margin: 0.5rem;
+}
+#campo1{
+  width: 20%;
+}
+#campo3{
+ display: flex;
+}
+#name,#campo{
+  width: 43%;
+}
+
+.p3{
+  padding: 10px;
+  width: 70%;
 }
 
 input::placeholder {
@@ -100,11 +115,29 @@ input::placeholder {
   select {
     width: 100%;
   }
+  
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+   
+  }
+
 }
 
 @media (max-width: 375px) {
   select {
     width: 100%;
+  }
+  .p3{
+    width: 100%;
+  }
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
   }
 }
 
@@ -112,25 +145,44 @@ input::placeholder {
   select {
     width: 100%;
   }
+  .p3{
+    width: 100%;
+  }
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
 }
 
 @media (max-width: 768px) {
   select {
     width: 100%;
   }
-  #campo , #name{
-    width: 90%;
-  }
   #texto{
     background-color: white;
   }
+ 
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+  #campo{
+    width: 90%;
+  }
+  #campo1,#name{
+    width: 90%;
+  }
+  
+
+}
+@media (width: 1200px){
+  #name{
+    width: 43.7%;
+  }
 }
 
-.swal2-popup{
-    box-shadow: 0 0 10px rgb(20, 138, 248);
-    border-radius: 30px;
-}
-.swal2-success-ring{
-  color: rgb(20, 138, 248);
-  box-shadow: 0 0 10px rgb(20, 138, 248);
-}
+

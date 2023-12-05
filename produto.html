@@ -48,28 +48,35 @@
     <section id="section2">
       <h2>Formulário pessoal:</h2>
 
-      <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm">
-      
-          <input type="text" placeholder="Nome Completo:" id="name" name="Nome Completo" required>
-       
-          <input type="text" placeholder="Data de Nascimento:" name="Data de Nascimento" id="campo" required>
-        
-          <input type="number" placeholder="CPF:" name="Cpf" id="campo" required>
-       
-          <input type="email" placeholder="Email:" name="Email" id="campo" required>
+      <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm" class="form">
+   
+          <input type="text" placeholder="Nome Completo:" id="name" name="Nome Completo" class="p3" required>
 
-          <input type="tel" name="Telefone"  placeholder="Whatsapp/Telefone:" id="campo" required>
+        <div class="div2">
+  
+          <input 
+          type="text" 
+          placeholder="Data de Nasimento:" 
+          onfocus="this.type='date'" 
+          onblur="if (!this.value) this.type='text'" id="campo1" class="p3" required>
+          <input type="number" placeholder="CPF:" name="Cpf" id="campo1" class="p3" required>
+        </div>
+        
+       
+          <input type="email" placeholder="Email:" name="Email" id="campo" class="p3" required>
+
+          <input type="tel" name="Telefone"  placeholder="Whatsapp/Telefone:" id="campo" class="p3" required>
     
      
           <h2>Endereço:</h2>
 
-          <input type="text" placeholder="Rua:" id="campo" name="Rua" required>
+          <input type="text" placeholder="Rua:" id="campo" name="Rua" class="p3" required>
 
-          <input type="text" placeholder="Bairro:" id="campo" name="Bairro" required>
+          <input type="text" placeholder="Bairro:" id="campo" name="Bairro"  class="p3" required>
 
-          <input type="text" placeholder="Cidade:" id="campo" name="Cidade" required>
+          <input type="text" placeholder="Cidade:" id="campo" name="Cidade" class="p3" required>
 
-          <input type="number" placeholder="CEP:"  id="campo" name="Cep" required>
+          <input type="number" placeholder="CEP:"  id="campo" name="Cep" class="p3" required>
 
           <p class="p1">Gênero:</p>
           <label>
