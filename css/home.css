@@ -34,7 +34,7 @@ body {
 #section1 {
   border-left: 6px solid rgb(4, 36, 111);
   text-align: center;
-  color: rgb(4, 36, 111);
+  color: white;
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
   width: 60%;
   border-radius: 15px;
@@ -45,6 +45,10 @@ body {
 
   background-color: rgba(0, 0, 0, 0.2);
 }
+.title{
+    color: white;
+    text-shadow: 2px 004px rgb(4, 36, 111);
+  }
 
 #section1 h2,
 h1 {
