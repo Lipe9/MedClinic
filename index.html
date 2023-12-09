@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title> MedClinic | Home</title>
+
   <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rubik+Vinyl&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="/css/home.css">
-  <script src="https://kit.fontawesome.com/5c7f78b45b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header class="cabecalho">
-    <div class="cabecalho__botao">
+
+    <nav class="menu-pc">
+      <ul>
+        <a href="index.html"><li class="home">Home</li></a>
+        <a href="produto.html"><li>Serviços</li></a>
+        <a href="proposta.html"><li>Proposta</li></a>
+        <a href="sobre.html"><li>Sobre Nós</li></a>
+      </ul>
+    </nav>
+
+    <div class="botao">
       <img src="img/menu_white_24dp.svg" alt="Menu aberto" >
     </div>
-    <div class="cabecalho__botao-use">
-      <a href="login.html"><img src="img/account_circle_white_24dp.svg" alt="login"></a>
+    <div class="botao-use">
+     <button class="button-use"><a href="login.html"><i class="fa fa-arrow-right-to-bracket"></i>Login</button></a>
     </div>
     <nav class="cabecalho__menu">
       <a href="index.html" class="cabecalho__menu-link" id="home2"><i class="fa fa-home"></i>Home</a>
       <a href="produto.html" class="cabecalho__menu-link"><i class="fa fa-medkit"></i>Serviços</a>
       <a href="proposta.html" class="cabecalho__menu-link"><i class="fa fa-file-text-o"></i>Proposta</a>
       <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
+
       <div class="social">
         <a href="https://www.instagram.com/medclinic_ds/" class="icon">
           <i class="fa fa-instagram iicon1"></i>
@@ -51,7 +62,7 @@
       <div class="content">
         <section id="banner">
           <div class="banner">
-            <h1 class="title">Bem-vindo a MedClinic!</h1>
+            <h1 class="animated-letters">Bem-vindo a MedClinic!</h1>
             <p>Encontre os melhores serviços para você.</p>
           </div>
         </section>
@@ -64,6 +75,7 @@
 
   </main>
   <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/5c7f78b45b.js" crossorigin="anonymous"></script>
 
 </body>
 

@@ -35,35 +35,44 @@ body {
   border-left: 6px solid rgb(4, 36, 111);
   text-align: center;
   color: white;
-  text-shadow: 1px 1px 10px rgb(20, 138, 248);
-  width: 60%;
+  width: 40%;
   border-radius: 15px;
   box-shadow: 8px 007px rgb(4, 36, 111);
   padding: 20px;
   cursor: pointer;
-  margin-bottom: 250px;
+  margin-bottom: 5%;
 
   background-color: rgba(0, 0, 0, 0.2);
 }
-.title{
-    color: white;
-    text-shadow: 2px 004px rgb(4, 36, 111);
-  }
 
 #section1 h2,
 h1 {
   font-weight: bold;
-  font-size: 3lvh;
-  margin: 5px;
-
+  margin: 10px 0px ;
+}
+.botao{
+  display: none;
+}
+.home{
+  border-bottom: 2px solid;
+  border-radius: 5px;
 }
 
+
 @media (max-width: 768px) {
+  .menu-pc{
+    display: none;
+  }
+  .botao{
+    display: block;
+  }
   .body {
     overflow: hidden;
   }
   #section1{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    width: 60%;
+    
   }
   .social {
     width: 20%;
@@ -73,3 +82,9 @@ h1 {
   }
 }
 
+.animated-letters {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 005px rgb(4, 36, 111);
+
+}

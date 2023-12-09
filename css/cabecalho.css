@@ -9,12 +9,15 @@
   justify-content: flex-end;
   align-items: center;
   padding: 1em;
+  transition: all ease-in-out;
+  
 }
 
-.cabecalho__botao--menu {
+.botao--menu {
   padding: 1em;
   background-color: var(--branco);
   border-radius: 50%;
+
 }
 
 .cabecalho__menu {
@@ -22,6 +25,8 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  transition: transform 0.3s ease-in;
+
   
   gap: 5em;
   position: absolute;
@@ -37,7 +42,6 @@
 .cabecalho__menu.aberto {
   left: 0;
 }
-
 .cabecalho__menu-link {
   text-transform: uppercase;
   color: var(--font);
@@ -51,13 +55,63 @@ i{
   margin: 10px;
 }
 .cabecalho__menu-link:hover {
-   transition: 500ms;
-   border-bottom: 3px solid rgb(20, 138, 248);
-   border-radius: 10px;
+  transition: 500ms;
+  border-bottom: 3px solid rgb(20, 138, 248);
+  border-radius: 10px;
+}
+.botao-use{
+  position: fixed;
+  left: 0;
+  margin-left: 23px;
+  padding: 10px 0;
+}
+.button-use{
+  border-radius: 10px;
+  background-color: rgb(20, 138, 248);
+  font-weight: bold;
+  border: solid 2px rgb(20, 138, 248);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px rgb(20, 138, 248);
+}
+.button-use a{
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
-.cabecalho__botao-use{
-   position: fixed;
-   left: 0;
-   margin-left: 23px;
+.button-use:hover{
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(15, 117, 212);
+  border: 2px solid rgb(15, 117, 212);
+  box-shadow: 0 0 5px rgb(15, 117, 212);
+}
+.botao{
+  display: none;
+}
+.menu-pc ul{
+  display: flex;
+  margin: 5px;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu-pc li{
+  font-weight: bold;
+  color: rgb(4, 36, 111);
+  text-shadow: 0 0 15px rgb(4, 36, 111);
+  transition: 0.3s ease-in;
+}
+.menu-pc li:hover{
+  color: rgb(7, 53, 161);
+  transition: 0.3s ease-in;
+}
+
+
+@media (max-width: 768px) {
+  .menu-pc{
+    display: none;
+  }
+  .botao{
+    display: block;
+  }
 }

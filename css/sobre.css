@@ -48,3 +48,7 @@ span{
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(4, 36, 111);
 }
+.home{
+  border-bottom: 2px solid;
+  border-radius: 5px;
+}

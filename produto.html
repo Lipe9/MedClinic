@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="180">
   <title>MedClinic | Produto</title>
   <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +20,17 @@
 
 <body class="body">
   <header class="cabecalho">
-    <div class="cabecalho__botao">
+    
+    <nav class="menu-pc">
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="produto.html"><li class="home">Serviços</li></a>
+        <a href="proposta.html"><li>Proposta</li></a>
+        <a href="sobre.html"><li>Sobre Nós</li></a>
+      </ul>
+    </nav>
+
+    <div class="botao">
       <img src="/img/menu_white_24dp.svg" alt="Menu aberto">
     </div>
     <nav class="cabecalho__menu">
@@ -45,38 +56,43 @@
       <h2>Serviços MedClinic</h2>
     </section>
     <section id="section2">
-      <h2>Formulário pessoal:</h2>
+      
 
       <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm" class="form">
+        <h2>Formulário pessoal:</h2>
    
-          <input type="text" placeholder="Nome Completo*:" id="name" name="Nome Completo" class="p3" required>
+          <input type="text" placeholder="Nome Completo:" id="name" name="Nome Completo" class="p3" required>
 
         <div class="div2">
   
           <input 
           type="text" 
-          placeholder="Data de Nasimento*:" 
+          placeholder="Data de Nasimento:" 
           onfocus="this.type='date'" 
           onblur="if (!this.value) this.type='text'" id="campo1" class="p3" required>
-          <input type="number" placeholder="CPF*:" name="Cpf" id="campo1" class="p3" required>
+          <input type="number" placeholder="CPF:" name="Cpf" id="campo1" class="p3" required>
         </div>
         
        
-          <input type="email" placeholder="Email*:" name="Email" id="campo" class="p3" required>
-
-          <input type="tel" name="Telefone"  placeholder="Whatsapp/Telefone*:" id="campo" class="p3" required>
-    
+          <input type="email" placeholder="Email:" name="Email" id="campo" class="p3" required>
+        <div>
+          <input type="tel" name="Telefone"  placeholder="Whatsapp/Telefone:" id="campo" class="p3" required>
+        </div>
      
           <h2>Endereço:</h2>
 
-          <input type="text" placeholder="Rua:" id="campo" name="Rua" class="p3">
-
-          <input type="text" placeholder="Bairro:" id="campo" name="Bairro"  class="p3">
-
-          <input type="text" placeholder="Cidade:" id="campo" name="Cidade" class="p3">
-
-          <input type="number" placeholder="CEP*:"  id="campo" name="Cep" class="p3" required>
-
+          <input type="text" placeholder="Rua:" id="campo" name="Rua" class="p3" required>
+        <div>
+          <input type="text" placeholder="Bairro:" id="campo" name="Bairro"  class="p3" required>
+       </div>
+          <input type="text" placeholder="Cidade:" id="campo" name="Cidade" class="p3" required>
+        
+          <div>
+          <input type="number" placeholder="CEP:"  id="campo" name="Cep" class="p3" required>
+        </div>
+        <div class="logo1">
+        <img src="img/fav3.png" alt="Logo" class="logo-form">
+      </div>
           <p class="p1">Gênero:</p>
           <label>
             <input type="radio" name="Gênero" value="Meminino" id="feminino" required>
@@ -96,8 +112,9 @@
           </label>
       
     </section>
-    <section id="section2">
+    <section id="section3">
       <h2>Agendamento:</h2>
+      
       <div class="menu9">
         <label for="menu1" class="label">Clinicas:</label>
         <select id="menu1" onchange="atualizarResultado()" name="Clinica" required >
@@ -146,9 +163,7 @@
   </footer>
    <script src="js/aviso.js"></script>
   <script src="js/script.js"></script>
- <!--<script src="sweetalert2.all.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
------> 
+
 
   
 </body>

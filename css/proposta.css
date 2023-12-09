@@ -1,5 +1,6 @@
 body{
    background-color: #6699ff;
+   overflow: hidden;
 }
 #proposta1{
    border-bottom: 3px solid rgb(20, 138, 248);
@@ -40,6 +41,10 @@ section {
    color: rgb(4, 36, 111);
    font-weight: bold;
  }
+ .home{
+  border-bottom: 2px solid;
+  border-radius: 5px;
+}
 
  @media (max-width: 768px) {
    .body{

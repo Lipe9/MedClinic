@@ -1,5 +1,5 @@
 let menuMobile = document.querySelector('.cabecalho__menu')
-let botaoMenu = document.querySelector('.cabecalho__botao')
+let botaoMenu = document.querySelector('.botao')
 
 let aberto = false 
 
@@ -54,3 +54,4 @@ function loginUser(e) {
     document.getElementById('login-username').value = '';
     document.getElementById('login-password').value = '';
 }
+
