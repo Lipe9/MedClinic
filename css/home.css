@@ -57,7 +57,23 @@ h1 {
   border-bottom: 2px solid;
   border-radius: 5px;
 }
-
+.button-saiba {
+  margin: 5px;
+  background-color: rgb(4, 36, 111);
+  border-radius: 8px;
+  padding: 1px 10px;
+  border: 1px solid rgb(4, 36, 111);
+  transition: 0.3s ease-in-out;
+}
+.button-saiba a{
+  color: white;
+  letter-spacing: 1px;
+}
+.button-saiba:hover{
+   background-color: rgb(7, 53, 161);
+   transition: 0.3s ease-in-out;
+   border: 1px solid rgb(7, 53, 161);
+}
 
 @media (max-width: 768px) {
   .menu-pc{

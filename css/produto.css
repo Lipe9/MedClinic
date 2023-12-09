@@ -3,6 +3,10 @@ body {
   background-size: cover;
   overflow-x: hidden;
 }
+#produto2{
+  border-bottom: 3px solid rgb(20, 138, 248);
+  border-radius: 10px;
+}
 section {
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(20, 138, 248);
