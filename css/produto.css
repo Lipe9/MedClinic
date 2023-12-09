@@ -24,7 +24,10 @@ section {
   justify-content: center;
   align-items: center;
 }
-
+#section1 p{
+  margin: 5px;
+  color: black;
+}
 #section2 {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);

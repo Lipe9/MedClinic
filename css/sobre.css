@@ -52,3 +52,11 @@ span{
   border-bottom: 2px solid;
   border-radius: 5px;
 }
+.social{
+  display: flex;
+}
+@media (max-width: 768px){
+  .social{
+    display: none;
+  }
+}
