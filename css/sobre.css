@@ -12,17 +12,19 @@ section {
   margin-bottom: 20px;
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(4, 36, 111);
-  padding: 15px;
+  padding: 30px 20px;
   cursor: pointer;
   font-weight: bold;
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.1);
+  border-left: 5px solid rgb(4, 36, 111);
 }
 
 #section1 {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(4, 36, 111);
+  padding: 30px 20px;
 }
 
 #section2 {
@@ -34,12 +36,15 @@ section {
 }
 
 #section3 {
-  border-left: 5px solid rgb(4, 36, 111);
+  padding: 20px 20px;
 }
 
 #section3 h2 {
   color: rgb(4, 36, 111);
   font-weight: bold;
+}
+.cabecalho__botao2{
+  display: none;
 }
 
 p {
@@ -50,7 +55,9 @@ span {
   color: rgb(4, 36, 111);
   font-weight: bold;
 }
-
+h1{
+  margin-bottom: 10px;
+}
 .equipe img {
   margin: 5px;
   width: 40%;
@@ -146,5 +153,9 @@ span {
   .support-form{
     width: 90%;
   }
+  .cabecalho__botao2{
+    display: block;
+  }
+  
  
 }
