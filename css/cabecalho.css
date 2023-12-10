@@ -99,10 +99,11 @@ i {
    padding: 5px;
    border-radius: 10px;
    transition: all 0.3s ease-in;
+   letter-spacing: 1px;
 }
 .menu-pc a:hover{
   transform: translateY(-2px);
-  transition: all 0.3s ease-in;
+  transition: all 0.2s ease-in;
   background-color: rgb(7, 53, 161);
 }
 .menu-pc a::after{
@@ -111,7 +112,8 @@ i {
 .menu-pc li:hover{
   border-bottom: 2px solid;
   border-radius: 5px;
-  transition: all 0.2s ease-in-out;
+  transition: 0.1s ease-in;
+text-transform: capitalize;
 }
 .menu-pc ul {
   display: flex;

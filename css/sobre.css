@@ -1,5 +1,6 @@
 body {
   background: var(--fundo7);
+  overflow-x: hidden;
 }
 
 #sobre1 {
@@ -20,7 +21,6 @@ section {
 
 #section1 {
   border-left: 5px solid rgb(4, 36, 111);
-  text-align: center;
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(4, 36, 111);
 }
@@ -43,7 +43,7 @@ section {
 }
 
 p {
-  margin: 6px;
+  margin: 20px;
 }
 
 span {
@@ -65,10 +65,92 @@ span {
 
 .social {
   display: flex;
+  margin: 5px 0;
 }
+
+.suporte{
+  background-color: rgb(4, 36, 111);
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  border: 1px solid rgb(4, 36, 111);
+
+}
+.suporte i{
+  margin: 5px 0;
+  text-align: center;
+}
+
+
+.support-container {
+  position: relative;
+}
+
+.support-icon {
+  font-size: 24px;
+  color: #f7f7f7;
+  cursor: pointer;
+}
+
+.support-form {
+  display: none;
+ margin: 10px;
+  width: 30%;
+  background-color: rgb(4, 36, 111);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.support-form .h2{
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.support-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.support-form input,
+.support-form textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.support-form button {
+  background-color: rgb(20, 138, 248);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.support-form button:not(:last-child) {
+  margin-right: 10px;
+}
+.support-form button:hover{
+  background-color: rgb(15, 117, 212) ;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+
 
 @media (max-width: 768px) {
   #social2 {
     display: none;
+  }
+  p {
+    margin: 20px;
+  }
+  .support-form{
+    width: 90%;
   }
 }

@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  overflow: hidden;
+
 }
 
 .conteudo {
@@ -63,7 +63,7 @@ h1 {
   border-radius: 8px;
   padding: 1px 10px;
   border: 1px solid rgb(4, 36, 111);
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in;
 }
 .button-saiba a{
   color: white;
@@ -71,7 +71,7 @@ h1 {
 }
 .button-saiba:hover{
    background-color: rgb(7, 53, 161);
-   transition: 0.3s ease-in-out;
+   transition: 0.2s ease-in-out;
    border: 1px solid rgb(7, 53, 161);
 }
 
