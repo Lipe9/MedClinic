@@ -122,8 +122,11 @@ h1{
   width: 90%;
   padding: 8px;
   margin-bottom: 10px;
+  background: #fff;
 }
-
+input::placeholder{
+  background-color: #fff;
+}
 .support-form button {
   background-color: rgb(20, 138, 248);
   color: #fff;
