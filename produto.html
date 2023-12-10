@@ -20,12 +20,21 @@
 
 <body class="body">
   <header class="cabecalho">
-    
+
     <nav class="menu-pc">
       <ul>
-        <a href="index.html"><li>Home</li></a>
-        <a href="produto.html"><li class="home">Serviços</li></a>
-        <a href="sobre.html"><li>Sobre Nós</li></a>
+        <a href="index.html">
+          <li><i class="fa fa-home"></i>Home</li>
+        </a>
+        <a href="produto.html">
+          <li class="home"><i class="fa fa-medkit"></i>Serviços</li>
+        </a>
+        <a href="noticia.html">
+          <li class="noticia"><i class="fas fa-newspaper"></i>Notícias</li>
+      </a>
+        <a href="sobre.html">
+          <li><i class="fa fa-info-circle"></i>Sobre Nós</li>
+        </a>
       </ul>
     </nav>
 
@@ -35,6 +44,7 @@
     <nav class="cabecalho__menu">
       <a href="index.html" class="cabecalho__menu-link"><i class="fa fa-home"></i>Home</a>
       <a href="produto.html" class="cabecalho__menu-link" id="produto2"><i class="fa fa-medkit"></i>Serviços</a>
+      <a href="index.html" class="cabecalho__menu-link" id="home2"><i class="fa fa-home"></i>Notícias</a>
       <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
       <div class="social">
         <a href="https://www.instagram.com/medclinic_ds/" class="icon">
@@ -55,69 +65,66 @@
       <p>Preencha o Formulário e faça o seu agendamento.</p>
     </section>
     <section id="section2">
-      
+
 
       <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm" class="form">
         <h2>Formulário pessoal:</h2>
-   
-          <input type="text" placeholder="Nome Completo:" id="name" name="Nome Completo" class="p3" required>
+
+        <input type="text" placeholder="Nome Completo:" id="name" name="Nome Completo" class="p3" required>
 
         <div class="div2">
-  
-          <input 
-          type="text" 
-          placeholder="Data de Nasimento:" 
-          onfocus="this.type='date'" 
-          onblur="if (!this.value) this.type='text'" id="campo1" class="p3" required>
+
+          <input type="text" placeholder="Data de Nasimento:" onfocus="this.type='date'"
+            onblur="if (!this.value) this.type='text'" id="campo1" class="p3" required>
           <input type="number" placeholder="CPF:" name="Cpf" id="campo1" class="p3" required>
         </div>
-        
-       
-          <input type="email" placeholder="Email:" name="Email" id="campo" class="p3" required>
-        <div>
-          <input type="tel" name="Telefone"  placeholder="Whatsapp/Telefone:" id="campo" class="p3" required>
-        </div>
-     
-          <h2>Endereço:</h2>
 
-          <input type="text" placeholder="Rua:" id="campo" name="Rua" class="p3" required>
+
+        <input type="email" placeholder="Email:" name="Email" id="campo" class="p3" required>
         <div>
-          <input type="text" placeholder="Bairro:" id="campo" name="Bairro"  class="p3" required>
-       </div>
-          <input type="text" placeholder="Cidade:" id="campo" name="Cidade" class="p3" required>
-        
-          <div>
-          <input type="number" placeholder="CEP:"  id="campo" name="Cep" class="p3" required>
+          <input type="tel" name="Telefone" placeholder="Whatsapp/Telefone:" id="campo" class="p3" required>
+        </div>
+
+        <h2>Endereço:</h2>
+
+        <input type="text" placeholder="Rua:" id="campo" name="Rua" class="p3" required>
+        <div>
+          <input type="text" placeholder="Bairro:" id="campo" name="Bairro" class="p3" required>
+        </div>
+        <input type="text" placeholder="Cidade:" id="campo" name="Cidade" class="p3" required>
+
+        <div>
+          <input type="number" placeholder="CEP:" id="campo" name="Cep" class="p3" required>
         </div>
         <div class="logo1">
-        <img src="img/fav3.png" alt="Logo" class="logo-form">
-      </div>
-          <p class="p1">Gênero:</p>
-          <label>
-            <input type="radio" name="Gênero" value="Meminino" id="feminino" required>
-            Feminino<br>
-          </label>
-          <label>
-            <input type="radio" name="Gênero" value="Masculino" id="masculino" required>
-            Masculino<br>
-          </label>
-          <label>
-            <input type="radio" name="Gênero" value="Outros" id="masculino" required>
-            Outros<br>
-          </label>
-          <label>
-            <input type="radio" name="Gênero" value="Prefiro não dizer" id="masculino" required>
-            Prefiro não dizer<br>
-          </label>
-      
+          <img src="img/fav3.png" alt="Logo" class="logo-form">
+        </div>
+        <p class="p1">Gênero:</p>
+        <label>
+          <input type="radio" name="Gênero" value="Meminino" id="feminino" required>
+          Feminino<br>
+        </label>
+        <label>
+          <input type="radio" name="Gênero" value="Masculino" id="masculino" required>
+          Masculino<br>
+        </label>
+        <label>
+          <input type="radio" name="Gênero" value="Outros" id="masculino" required>
+          Outros<br>
+        </label>
+        <label>
+          <input type="radio" name="Gênero" value="Prefiro não dizer" id="masculino" required>
+          Prefiro não dizer<br>
+        </label>
+
     </section>
     <section id="section3">
       <h2>Agendamento:</h2>
-      
+
       <div class="menu9">
         <label for="menu1" class="label">Clinicas:</label>
-        <select id="menu1" onchange="atualizarResultado()" name="Clinica" required >
-          <option class="op" >--Selecione--</option>
+        <select id="menu1" onchange="atualizarResultado()" name="Clinica" required>
+          <option class="op">--Selecione--</option>
           <option value="Médica Vitalis">Médica Vitalis</option>
           <option value="Odontológica Sorriso Saudável">Odontológica Sorriso Saudável</option>
           <option value="Nutrição NutriVida">Nutrição NutriVida</option>
@@ -146,23 +153,23 @@
         <h3>Selecionados:</h3>
         <p id="itemSelecionado">Nenhum selecionado ainda.</p>
       </div>
-        <h2 class="me">Mensagem:</h2>
-        <textarea name="texto" id="texto" cols="35" rows="7"></textarea>
+      <h2 class="me">Mensagem:</h2>
+      <textarea name="texto" id="texto" cols="35" rows="7"></textarea>
 
       <div class="cta-buttons">
-      <input class="button" type="submit" required></input>
-      </form>
+        <input class="button" type="submit" required></input>
+        </form>
       </div>
     </section>
-  
+
 
   </main>
   <footer class="rodape">
     <p><a href="https://felipe-card.vercel.app/">&copy; 2023 MedClinic | Developed by Felipe</a></p>
   </footer>
-   <script src="js/aviso.js"></script>
+  <script src="js/aviso.js"></script>
   <script src="js/script.js"></script>
 
 
-  
+
 </body>

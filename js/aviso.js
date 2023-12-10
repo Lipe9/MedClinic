@@ -1,21 +1,18 @@
-function alerta() {
-  var name = document.getElementById("name").value;
+const botao = document.getElementById('botao');
 
-  Swal.fire({
-    title: `Olá, ${name}!`,
-
-    text: `O seu formulário foi enviado com sucesso.
-        Obrigado pela preferência!! volte sempre :)`,
-
-    icon: "success",
-
-    background: "rgb(4, 36, 111)",
-
-    color: "white"
-    
-   
-
-  });
-  
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDefault();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if (active) {
+    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+  }
 }
+
+btnMobile.addEventListener('click', toggleMenu);
+bo.addEventListener('touchstart', toggleMenu);
 

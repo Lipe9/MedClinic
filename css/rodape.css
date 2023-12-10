@@ -1,9 +1,8 @@
-
-.rodape a{
+.rodape a {
   display: block;
   margin: 0 auto;
   text-align: center;
   padding: 2em;
-  background-color: rgba( 0, 0, 51, 0.8) ;
+  background-color: rgba(0, 0, 51, 0.8);
   color: var(--font);
 }

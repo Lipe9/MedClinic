@@ -1,10 +1,12 @@
-body{
-  background:var(--fundo7);
+body {
+  background: var(--fundo7);
 }
-#sobre1{
+
+#sobre1 {
   border-bottom: 3px solid rgb(20, 138, 248);
   border-radius: 10px;
 }
+
 section {
   margin-bottom: 20px;
   border-radius: 15px;
@@ -15,48 +17,58 @@ section {
   margin: 10px;
   background-color: rgba(0, 0, 0, 0.1);
 }
-#section1{
-border-left: 5px solid rgb(4, 36, 111);
-text-align: center;
-color: rgb(4, 36, 111);
-text-shadow: 1px 1px 10px rgb(4, 36, 111);
+
+#section1 {
+  border-left: 5px solid rgb(4, 36, 111);
+  text-align: center;
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(4, 36, 111);
 }
-#section2{
+
+#section2 {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
   display: flex;
   justify-content: center;
 }
-#section3{
+
+#section3 {
   border-left: 5px solid rgb(4, 36, 111);
 }
-#section3 h2{
+
+#section3 h2 {
   color: rgb(4, 36, 111);
   font-weight: bold;
 }
-p{
+
+p {
   margin: 6px;
 }
-span{
+
+span {
   color: rgb(4, 36, 111);
   font-weight: bold;
 }
-.equipe img{
+
+.equipe img {
   margin: 5px;
   width: 40%;
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(4, 36, 111);
 }
-.home{
+
+.home {
   border-bottom: 2px solid;
   border-radius: 5px;
 }
-.social{
+
+.social {
   display: flex;
 }
-@media (max-width: 768px){
-  .social{
+
+@media (max-width: 768px) {
+  #social2 {
     display: none;
   }
 }

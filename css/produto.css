@@ -3,10 +3,12 @@ body {
   background-size: cover;
   overflow-x: hidden;
 }
-#produto2{
+
+#produto2 {
   border-bottom: 3px solid rgb(20, 138, 248);
   border-radius: 10px;
 }
+
 section {
   border-radius: 15px;
   box-shadow: 2px 0px 20px rgb(20, 138, 248);
@@ -19,21 +21,25 @@ section {
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
   border-left: 5px solid rgb(4, 36, 111);
 }
+
 .label {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#section1 p{
+
+#section1 p {
   margin: 5px;
   color: black;
 }
+
 #section2 {
   border-left: 5px solid rgb(4, 36, 111);
   color: rgb(4, 36, 111);
   text-shadow: 1px 1px 10px rgb(20, 138, 248);
   padding-right: 40px;
 }
+
 select {
   width: 99%;
   text-align: center;
@@ -43,7 +49,8 @@ select {
   font-weight: bold;
   border-radius: 5px;
 }
-.home{
+
+.home {
   border-bottom: 2px solid;
   border-radius: 5px;
 }
@@ -52,10 +59,12 @@ select {
 .op {
   text-align: center;
 }
-.me{
+
+.me {
   margin: 5px;
 }
-#texto{
+
+#texto {
   width: 100%;
 }
 
@@ -65,23 +74,28 @@ input {
   border-radius: 5px;
   margin: 0.5rem;
 }
-.logo1 img{
+
+.logo1 img {
   display: flex;
-justify-content: end;
-margin-top: -490px;
-margin-left: 750px;
+  justify-content: end;
+  margin-top: -490px;
+  margin-left: 750px;
 }
-#campo1{
+
+#campo1 {
   width: 20.9%;
 }
-#campo3{
- display: flex;
+
+#campo3 {
+  display: flex;
 }
-#name,#campo{
+
+#name,
+#campo {
   width: 45%;
 }
 
-.p3{
+.p3 {
   padding: 10px;
   width: 70%;
 }
@@ -113,20 +127,22 @@ input::placeholder {
   transition: all .4s;
   border: 2px solid rgb(4, 36, 111);
 }
+
 .a1 {
   color: white;
 }
+
 @media (max-width: 320px) {
   select {
     width: 100%;
   }
-  
+
   input {
     border: 0px;
     border-bottom: 3px solid rgb(4, 36, 111);
     border-radius: 5px;
     margin: 0.5rem;
-   
+
   }
 
 }
@@ -135,9 +151,11 @@ input::placeholder {
   select {
     width: 100%;
   }
-  .p3{
+
+  .p3 {
     width: 100%;
   }
+
   input {
     border: 0px;
     border-bottom: 3px solid rgb(4, 36, 111);
@@ -150,9 +168,11 @@ input::placeholder {
   select {
     width: 100%;
   }
-  .p3{
+
+  .p3 {
     width: 100%;
   }
+
   input {
     border: 0px;
     border-bottom: 3px solid rgb(4, 36, 111);
@@ -165,25 +185,28 @@ input::placeholder {
   select {
     width: 100%;
   }
-  #texto{
+
+  #texto {
     background-color: white;
   }
-  .logo1 img{
+
+  .logo1 img {
     display: none;
   }
- 
+
   input {
     border: 0px;
     border-bottom: 3px solid rgb(4, 36, 111);
     border-radius: 5px;
     margin: 0.5rem;
   }
-  #campo{
+
+  #campo {
     width: 90%;
   }
-  #campo1,#name{
+
+  #campo1,
+  #name {
     width: 90%;
   }
 }
-
-
