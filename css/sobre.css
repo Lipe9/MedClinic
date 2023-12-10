@@ -74,8 +74,9 @@ span {
   font-family: 'Courier New', Courier, monospace;
   border-radius: 10px;
   border: 1px solid rgb(4, 36, 111);
-
+ 
 }
+
 .suporte i{
   margin: 5px 0;
   text-align: center;
@@ -102,11 +103,6 @@ span {
   border-radius: 10px;
   color: #fff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.support-form .h2{
-  margin-bottom: 15px;
-  color: #fff;
 }
 
 .support-form label {
@@ -140,9 +136,6 @@ span {
 }
 
 
-
-
-
 @media (max-width: 768px) {
   #social2 {
     display: none;
@@ -153,4 +146,5 @@ span {
   .support-form{
     width: 90%;
   }
+ 
 }
