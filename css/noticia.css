@@ -1,5 +1,5 @@
 body{
-    background-color:azure;
+    background:var(--fundo7);
     overflow-x:  hidden;
 }
 .news-container {
