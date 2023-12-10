@@ -1,0 +1,162 @@
+body {
+  background: var(--fundo7);
+  overflow-x: hidden;
+}
+
+#sobre1 {
+  border-bottom: 3px solid rgb(20, 138, 248);
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 0px 20px rgb(4, 36, 111);
+  padding: 30px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-left: 5px solid rgb(4, 36, 111);
+}
+
+#section1 {
+  border-left: 5px solid rgb(4, 36, 111);
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(4, 36, 111);
+  padding: 30px 20px;
+}
+
+#section2 {
+  border-left: 5px solid rgb(4, 36, 111);
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
+  display: flex;
+  justify-content: center;
+}
+
+#section3 {
+  padding: 20px 20px;
+}
+
+#section3 h2 {
+  color: rgb(4, 36, 111);
+  font-weight: bold;
+}
+.cabecalho__botao2{
+  display: none;
+}
+
+p {
+  margin: 20px;
+}
+
+span {
+  color: rgb(4, 36, 111);
+  font-weight: bold;
+}
+h1{
+  margin-bottom: 10px;
+}
+.equipe img {
+  margin: 5px;
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 2px 0px 20px rgb(4, 36, 111);
+}
+
+.home {
+  border-bottom: 2px solid;
+  border-radius: 5px;
+}
+
+.social {
+  display: flex;
+  margin: 5px 0;
+}
+
+.suporte{
+  background-color: rgb(4, 36, 111);
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 10px;
+  border: 1px solid rgb(4, 36, 111);
+ 
+}
+
+.suporte i{
+  margin: 5px 0;
+  text-align: center;
+}
+
+
+.support-container {
+  position: relative;
+}
+
+.support-icon {
+  font-size: 24px;
+  color: #f7f7f7;
+  cursor: pointer;
+}
+
+.support-form {
+  display: none;
+ margin: 10px;
+  width: 30%;
+  background-color: rgb(4, 36, 111);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.support-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.support-form input,
+.support-form textarea {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.support-form button {
+  background-color: rgb(20, 138, 248);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+.support-form button:not(:last-child) {
+  margin-right: 10px;
+}
+.support-form button:hover{
+  background-color: rgb(15, 117, 212) ;
+  transition: 0.2s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+  #social2 {
+    display: none;
+  }
+  p {
+    margin: 20px;
+  }
+  .support-form{
+    width: 90%;
+  }
+  .cabecalho__botao2{
+    display: block;
+  }
+  
+ 
+}
