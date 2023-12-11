@@ -57,3 +57,17 @@ function loginUser(e) {
 
 
 
+var campo = document.getElementById("campo1");
+
+campo.addEventListener("click", function () {
+  if (campo.type === "date") {
+    campo.type = "text";
+    campo.value = "";
+  }
+});
+
+campo.addEventListener("blur", function () {
+  if (!campo.value) {
+    campo.type = "date";
+  }
+});

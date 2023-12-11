@@ -54,7 +54,7 @@ h1 {
   display: none;
 }
 .home{
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   border-radius: 5px;
 }
 .button-saiba {
@@ -75,10 +75,7 @@ h1 {
    border: 1px solid rgb(7, 53, 161);
 }
 
-@media (max-width: 768px) {
-  .menu-pc{
-    display: none;
-  }
+@media (max-width: 1060px) {
   .botao{
     display: block;
   }

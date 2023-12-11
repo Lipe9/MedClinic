@@ -65,7 +65,7 @@ h1{
 }
 
 .home {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   border-radius: 5px;
 }
 
@@ -160,4 +160,9 @@ input::placeholder{
   }
   
  
+}
+@media (max-width: 1060px){
+  .cabecalho__botao2{
+    display: block;
+  }
 }

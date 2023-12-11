@@ -110,7 +110,7 @@ i {
   transform: translateY(-15px);
 }
 .menu-pc li:hover{
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   border-radius: 5px;
   transition: 0.1s ease-in;
 text-transform: capitalize;
@@ -133,7 +133,7 @@ text-transform: capitalize;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1060px) {
   .menu-pc {
     display: none;
   }
