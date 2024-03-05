@@ -9,7 +9,6 @@
   --font-secundary: 'Rubik Vinyl', cursive;
 
   --font: #fff;
-
   --fundo1: #061044;
   --fundo2: #054EBB;
   --fundo3: #053A80;
@@ -32,8 +31,6 @@
 body {
   font-family: var(--font-principal);
   font-size: 100%;
-  width: 100vw;
-  height: 100vh;
 }
 
 .servicos__titulo,
