@@ -1,0 +1,103 @@
+body {
+  background-image: url(../img/Banner-Noticia_Telemedicina.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.conteudo {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.destaque {
+  display: flex;
+  border-radius: 15%;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.destaque__imagem {
+  width: 50%;
+  border-radius: 15%;
+}
+#home2 {
+  border-bottom: 3px solid rgb(20, 138, 248);
+  border-radius: 10px;
+}
+
+#section1 {
+  border-left: 6px solid rgb(4, 36, 111);
+  text-align: center;
+  color: white;
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 8px 007px rgb(4, 36, 111);
+  padding: 20px;
+  cursor: pointer;
+  margin-bottom: 5%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#section1 h2,
+h1 {
+  font-weight: bold;
+  margin: 10px 0px ;
+}
+.botao{
+  display: none;
+}
+.home{
+  border-bottom: 3px solid;
+  border-radius: 5px;
+}
+.button-saiba {
+  margin: 5px;
+  background-color: rgb(4, 36, 111);
+  border-radius: 8px;
+  padding: 1px 10px;
+  border: 1px solid rgb(4, 36, 111);
+  transition: 0.2s ease-in;
+}
+.button-saiba a{
+  color: white;
+  letter-spacing: 1px;
+}
+.button-saiba:hover{
+   background-color: rgb(7, 53, 161);
+   transition: 0.2s ease-in-out;
+   border: 1px solid rgb(7, 53, 161);
+}
+
+@media (max-width: 1060px) {
+  .botao{
+    display: block;
+  }
+  .body {
+    overflow: hidden;
+  }
+  #section1{
+    margin-bottom: 100px;
+    width: 60%;
+    
+  }
+  .social {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.animated-letters {
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 005px rgb(4, 36, 111);
+
+}

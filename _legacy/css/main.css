@@ -1,0 +1,63 @@
+@import url(/css/reset.css);
+@import url(/css/cabecalho.css);
+@import url(/css/rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+:root {
+  --font-principal: 'Young Serif', serif;
+  ;
+  --font-secundary: 'Rubik Vinyl', cursive;
+
+  --font: #fff;
+  --fundo1: #061044;
+  --fundo2: #054EBB;
+  --fundo3: #053A80;
+  --fundo4: #075CFF;
+  --fundo5: #38B6FF;
+  --fundo6: #034172;
+  --fundo7: #008CEF;
+}
+
+.social {
+  width: 25%;
+  text-align: center;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+body {
+  font-family: var(--font-principal);
+  font-size: 100%;
+}
+
+.servicos__titulo,
+.contato__titulo {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+i {
+  margin: 10px;
+}
+
+.social .icon {
+  font-size: 4lvh;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px rgb(20, 138, 248);
+  transition: all 0.4s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

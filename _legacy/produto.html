@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="180">
+  <title>MedClinic | Produto</title>
+  <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rubik+Vinyl&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/produto.css">
+  <script src="https://kit.fontawesome.com/5c7f78b45b.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+  <header class="cabecalho">
+
+    <nav class="menu-pc">
+      <ul>
+        <a href="index.html">
+          <li><i class="fa fa-home"></i>Home</li>
+        </a>
+        <a href="produto.html">
+          <li class="home"><i class="fa fa-medkit"></i>Serviços</li>
+        </a>
+        <a href="noticia.html">
+          <li class="noticia"><i class="fas fa-newspaper"></i>Notícias</li>
+      </a>
+        <a href="sobre.html">
+          <li><i class="fa fa-info-circle"></i>Sobre Nós</li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="botao">
+      <img src="/img/menu_white_24dp.svg" alt="Menu aberto">
+    </div>
+    <nav class="cabecalho__menu">
+      <a href="index.html" class="cabecalho__menu-link"><i class="fa fa-home"></i>Home</a>
+      <a href="produto.html" class="cabecalho__menu-link" id="produto2"><i class="fa fa-medkit"></i>Serviços</a>
+      <a href="noticia.html" class="cabecalho__menu-link" id="home2"><i class="fas fa-newspaper"></i>Notícias</a>
+      <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
+      <div class="social">
+        <a href="https://www.instagram.com/medclinic_ds/" class="icon">
+          <i class="fa fa-instagram iicon1"></i>
+        </a>
+        <a href="https://github.com/Fellipe157/MedClinic" class="icon">
+          <i class="fa fa-github iicon2"></i>
+        </a>
+        <a href="#" class="icon">
+          <i class="fa fa-whatsapp iicon3"></i>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main class="content">
+    <section id="section1">
+      <h2>Serviços MedClinic</h2>
+      <p>Preencha o Formulário e faça o seu agendamento.</p>
+    </section>
+    <section id="section2">
+
+
+      <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm" class="form">
+        <h2>Formulário pessoal:</h2>
+
+        <input type="text" placeholder="Nome Completo:" id="name" name="Nome Completo" class="p3" required>
+
+        <div class="div2">
+
+          <input type="text" placeholder="Data de Nasimento:" onfocus="this.type='date'"
+            onblur="if (!this.value) this.type='text'" id="campo1" class="p3" required>
+            
+          <input type="number" placeholder="CPF:" name="Cpf" id="campo1" class="p3" required>
+        </div>
+
+
+        <input type="email" placeholder="Email:" name="Email" id="campo" class="p3" required>
+        <div>
+          <input type="tel" name="Telefone" placeholder="Whatsapp/Telefone:" id="campo" class="p3" required>
+        </div>
+
+        <h2>Endereço:</h2>
+
+        <input type="text" placeholder="Rua:" id="campo" name="Rua" class="p3">
+        <div>
+          <input type="text" placeholder="Bairro:" id="campo" name="Bairro" class="p3">
+        </div>
+        <input type="text" placeholder="Cidade:" id="campo" name="Cidade" class="p3" required>
+
+        <div>
+          <input type="number" placeholder="CEP:" id="campo" name="Cep" class="p3" required>
+        </div>
+        <p class="p1">Gênero:</p>
+        <label>
+          <input type="radio" name="Gênero" value="Meminino" id="feminino" required>
+          Feminino<br>
+        </label>
+        <label>
+          <input type="radio" name="Gênero" value="Masculino" id="masculino" required>
+          Masculino<br>
+        </label>
+        <label>
+          <input type="radio" name="Gênero" value="Outros" id="masculino" required>
+          Outros<br>
+        </label>
+        <label>
+          <input type="radio" name="Gênero" value="Prefiro não dizer" id="masculino" required>
+          Prefiro não dizer<br>
+        </label>
+
+    </section>
+    <section id="section3">
+      <h2>Agendamento:</h2>
+
+      <div class="menu9">
+        <label for="menu1" class="label">Clinicas:</label>
+        <select id="menu1" onchange="atualizarResultado()" name="Clinica" required>
+          <option class="op">--Selecione--</option>
+          <option value="Médica Vitalis">Médica Vitalis</option>
+          <option value="Odontológica Sorriso Saudável">Odontológica Sorriso Saudável</option>
+          <option value="Nutrição NutriVida">Nutrição NutriVida</option>
+          <option value="Oftalmologia Visão Clara">Oftalmologia Visão Clara</option>
+        </select>
+        <label for="menu2" class="label">Doutores</label>
+        <select id="menu2" onchange="atualizarResultado()" name="Doutor" required>
+          <option class="op">--Selecione--</option>
+          <option value="Dr. Benjamin Hartman">Dr. Benjamin Hartman</option>
+          <option value="Dra. Sophia Ramirez">Dra. Sophia Ramirez</option>
+          <option value="Dr. Alexander Anderson">Dr. Alexander Anderson</option>
+          <option value="Dra. Isabella Chang">Dra. Isabella Chang</option>
+        </select>
+
+        <label for="menu3" class="label">Horários</label>
+        <select id="menu3" onchange="atualizarResultado()" name="Horário" required>
+          <option class="op">--Selecione--</option>
+          <option value="9:00 - Manhã">9:00 - Manhã</option>
+          <option value="11:00 - Manhã">11:00 - Manhã</option>
+          <option value="13:00 - Tarde">13:00 - Tarde</option>
+          <option value="15:00 - Tarde">15:00 - Tarde</option>
+        </select>
+      </div>
+
+      <div class="resultado">
+        <h3>Selecionados:</h3>
+        <p id="itemSelecionado">Nenhum selecionado ainda.</p>
+      </div>
+      <h2 class="me">Mensagem:</h2>
+      <textarea name="texto" id="texto" cols="35" rows="7"></textarea>
+
+      <div class="cta-buttons">
+        <input class="button" type="submit" required></input>
+        </form>
+      </div>
+    </section>
+
+
+  </main>
+  <footer class="rodape">
+    <p><a href="https://felipe-card.vercel.app/">&copy; 2023 MedClinic | Developed by Felipe</a></p>
+  </footer>
+  <script src="js/aviso.js"></script>
+  <script src="js/script.js"></script>
+
+
+
+</body>

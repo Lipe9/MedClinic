@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedClinic | Serviços</title>
+
+    <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+
+</head>
+<body>
+    <header class="cabecalho">
+
+        <nav class="menu-pc">
+          <ul>
+            <a href="index.html">
+              <li><i class="fa fa-home"></i>Home</li>
+            </a>
+            <a href="form.html" >
+              <li class="home"><i class="fa fa-medkit"></i>Serviços</li>
+            </a>
+            <a href="noticia.html">
+              <li class="noticia"><i class="fas fa-newspaper"></i>Notícias</li>
+          </a>
+            <a href="sobre.html">
+              <li><i class="fa fa-info-circle"></i>Sobre Nós</li>
+            </a>
+          </ul>
+        </nav>
+    
+        <div class="botao">
+          <img src="/img/menu_white_24dp.svg" alt="Menu aberto">
+        </div>
+        <nav class="cabecalho__menu">
+          <a href="index.html" class="cabecalho__menu-link"><i class="fa fa-home"></i>Home</a>
+          <a href="produto.html" class="cabecalho__menu-link" id="produto2"><i class="fa fa-medkit"></i>Serviços</a>
+          <a href="noticia.html" class="cabecalho__menu-link" id="home2"><i class="fas fa-newspaper"></i>Notícias</a>
+          <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
+          <div class="social">
+            <a href="https://www.instagram.com/medclinic_ds/" class="icon">
+              <i class="fa fa-instagram iicon1"></i>
+            </a>
+            <a href="https://github.com/Fellipe157/MedClinic" class="icon">
+              <i class="fa fa-github iicon2"></i>
+            </a>
+            <a href="#" class="icon">
+              <i class="fa fa-whatsapp iicon3"></i>
+            </a>
+          </div>
+        </nav>
+      </header>
+    <section id="section1">
+        <h2>Serviços MedClinic</h2>
+        <p>Preencha o Formulário e faça o seu agendamento.</p>
+    </section>
+    <section id="section1">
+        <form action="https://formspree.io/f/mdorrrke" method="POST" id="MyForm" class="form">
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="Nome Completo" class="input1">
+
+            <label for="date">Data de Nascimento:</label>
+            <input type="text" id="date" name="Data de Nascimento:" class="input1">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email:" class="input1">
+
+            <label for="tel">Telefone:</label>
+            <input type="tel"  id="tel" name="Email:" class="input1">
+
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf" name="CPF:" class="input1">
+
+            <label for="menu1" class="label">Gênero:</label>
+            <select name="Gênero" id="ge">
+              <option value="Gênero">--Selecione--</option>
+              <option value="Feminino">Feminino</option>
+              <option value="Feminino">Masculino</option>
+              <option value="Feminino">Outros</option>
+            </select>
+     
+        <label for="menu1" class="label">Clinicas:</label>
+        <select id="menu1" onchange="atualizarResultado()" name="Clinica" required>
+          <option class="op">--Selecione--</option>
+          <option value="Médica Vitalis">Médica Vitalis</option>
+          <option value="Odontológica Sorriso Saudável">Odontológica Sorriso Saudável</option>
+          <option value="Nutrição NutriVida">Nutrição NutriVida</option>
+          <option value="Oftalmologia Visão Clara">Oftalmologia Visão Clara</option>
+        </select>
+        <label for="menu2" class="label">Doutores</label>
+        <select id="menu2" onchange="atualizarResultado()" name="Doutor" required>
+          <option class="op">--Selecione--</option>
+          <option value="Dr. Benjamin Hartman">Dr. Benjamin Hartman</option>
+          <option value="Dra. Sophia Ramirez">Dra. Sophia Ramirez</option>
+          <option value="Dr. Alexander Anderson">Dr. Alexander Anderson</option>
+          <option value="Dra. Isabella Chang">Dra. Isabella Chang</option>
+        </select>
+
+        <label for="menu3" class="label">Horários</label>
+        <select id="menu3" onchange="atualizarResultado()" name="Horário" required>
+          <option class="op">--Selecione--</option>
+          <option value="9:00 - Manhã">9:00 - Manhã</option>
+          <option value="11:00 - Manhã">11:00 - Manhã</option>
+          <option value="13:00 - Tarde">13:00 - Tarde</option>
+          <option value="15:00 - Tarde">15:00 - Tarde</option>
+
+          <div class="cta-buttons">
+            <input class="button" type="submit" required></input>
+          </div>
+
+    </section>
+</form>
+
+<footer class="rodape">
+  <p><a href="https://felipe-card.vercel.app/">&copy; 2023 MedClinic | Developed by Felipe</a></p>
+</footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/5c7f78b45b.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

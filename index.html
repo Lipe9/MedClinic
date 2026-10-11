@@ -1,96 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title> MedClinic | Home</title>
-
-  <link rel="shortcut icon" href="img/fav.jpg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="MedClinic — agende consultas médicas, odontológicas, nutricionais e oftalmológicas em poucos cliques.">
+  <meta name="theme-color" content="#0f766e">
+  <title>MedClinic | Agendamento de consultas</title>
+  <link rel="icon" href="img/fav.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rubik+Vinyl&display=swap"
-    rel="stylesheet">
-
-
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="/css/home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <header class="cabecalho">
+  <!-- Ícones SVG -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+      <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+      <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+      <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2l3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.3-6.2 3.3L7 14.2 2 9.3l6.9-1z"/></symbol>
+      <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></symbol>
+      <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M17 1l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 23l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"/></symbol>
+    </defs>
+  </svg>
 
-    <nav class="menu-pc">
-      <ul>
-        <a href="index.html">
-          <li class="home"><i class="fa fa-home"></i>Home</li>
-        </a>
-        <a href="form.html">
-          <li><i class="fa fa-medkit"></i>Serviços</li>
-        </a>
-        <a href="noticia.html">
-          <li><i class="fas fa-newspaper"></i>Notícias</li>
-        </a>
-        <a href="sobre.html">
-          <li><i class="fa fa-info-circle"></i>Sobre Nós</li>
-        </a>
-      </ul>
-    </nav>
+  <a class="skip" href="#app">Pular para o conteúdo</a>
 
-
-
-    <div class="botao">
-
-      <img src="img/menu_white_24dp.svg" alt="Menu aberto">
-    </div>
-    <div class="botao-use">
-      <button class="button-use"><a href="login.html"><i class="fa fa-arrow-right-to-bracket"></i>Login</button></a>
-    </div>
-    <nav class="cabecalho__menu">
-      <a href="index.html" class="cabecalho__menu-link" id="home2"><i class="fa fa-home"></i>Home</a>
-      <a href="form.html" class="cabecalho__menu-link"><i class="fa fa-medkit"></i>Serviços</a>
-      <a href="noticia.html" class="cabecalho__menu-link"><i class="fas fa-newspaper"></i>Notícias</a>
-      <a href="sobre.html" class="cabecalho__menu-link"><i class="fa fa-info-circle"></i>Sobre Nós</a>
-
-      <div class="social">
-        <a href="https://www.instagram.com/medclinic_ds/" class="icon">
-          <i class="fa fa-instagram iicon1"></i>
-        </a>
-        <a href="https://github.com/Fellipe157/MedClinic" class="icon">
-          <i class="fa fa-github iicon2"></i>
-        </a>
-        <a href="#" class="icon">
-          <i class="fa fa-whatsapp iicon3"></i>
-        </a>
+  <header class="topbar" id="topbar">
+    <div class="wrap topbar__in">
+      <a href="#/" class="brand" aria-label="MedClinic — início">
+        <span class="brand__mark"><svg class="ic"><use href="#i-plus"/></svg></span>
+        <span class="brand__name">Med<b>Clinic</b></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#/" data-nav="home">Início</a>
+        <a href="#/medicos" data-nav="medicos">Especialistas</a>
+        <a href="#/consultas" data-nav="consultas">Minhas consultas</a>
+        <a href="#/sobre" data-nav="sobre">Sobre</a>
+      </nav>
+      <div class="topbar__actions">
+        <button class="icon-btn" id="themeBtn" aria-label="Alternar tema"><svg class="ic"><use id="themeIcon" href="#i-moon"/></svg></button>
+        <button class="user-chip" id="userBtn" type="button"></button>
+        <a href="#/agendar" class="btn btn--primary btn--sm hide-sm">Agendar consulta</a>
       </div>
-
-    </nav>
+    </div>
   </header>
 
-  <main class="conteudo">
-    <section id="section1">
-      <div class="content">
-        <section id="banner">
-          <div class="banner">
-            <h1 class="animated-letters">Bem-vindo a MedClinic!</h1>
-            <p>Encontre os melhores serviços para você.</p>
-            <button class="button-saiba"><a href="produto.html">Saiba mais <i
-                  class="fa fa-arrow-right login"></i></button></a>
-          </div>
-        </section>
-    </section>
-    <section class="destaque">
-      <img src="img/fav3.png" alt="Logo" class="destaque__imagem">
+  <main id="app" tabindex="-1"></main>
 
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <span>© <span id="year"></span> MedClinic · Desenvolvido por <a href="https://felipe-card.vercel.app/" target="_blank" rel="noopener">Felipe</a></span>
+      <span class="footer__links">
+        <a href="https://www.instagram.com/medclinic_ds/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://github.com/Fellipe157/MedClinic" target="_blank" rel="noopener">GitHub</a>
+      </span>
+    </div>
+  </footer>
 
-    </section>
+  <nav class="tabbar" aria-label="Navegação móvel">
+    <a href="#/" data-nav="home"><svg class="ic"><use href="#i-home"/></svg><span>Início</span></a>
+    <a href="#/medicos" data-nav="medicos"><svg class="ic"><use href="#i-users"/></svg><span>Médicos</span></a>
+    <a href="#/agendar" data-nav="agendar" class="tabbar__cta"><svg class="ic"><use href="#i-plus"/></svg><span>Agendar</span></a>
+    <a href="#/consultas" data-nav="consultas"><svg class="ic"><use href="#i-calendar"/></svg><span>Consultas</span></a>
+    <a href="#/sobre" data-nav="sobre"><svg class="ic"><use href="#i-info"/></svg><span>Sobre</span></a>
+  </nav>
 
-  </main>
-  <script src="js/script.js"></script>
-  <script src="https://kit.fontawesome.com/5c7f78b45b.js" crossorigin="anonymous"></script>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div class="modal" id="modal" hidden></div>
 
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
 </body>
-
 </html>
+

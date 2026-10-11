@@ -1,0 +1,212 @@
+body {
+  background-color: var(--fundo5);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#produto2 {
+  border-bottom: 3px solid rgb(20, 138, 248);
+  border-radius: 10px;
+}
+
+section {
+  border-radius: 15px;
+  box-shadow: 2px 0px 20px rgb(20, 138, 248);
+  padding: 15px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
+  border-left: 5px solid rgb(4, 36, 111);
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section1 p {
+  margin: 5px;
+  color: black;
+}
+
+#section2 {
+  border-left: 5px solid rgb(4, 36, 111);
+  color: rgb(4, 36, 111);
+  text-shadow: 1px 1px 10px rgb(20, 138, 248);
+  padding-right: 40px;
+}
+
+select {
+  width: 99%;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  display: flex;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.home {
+  border-bottom: 3px solid;
+  border-radius: 5px;
+}
+
+
+.op {
+  text-align: center;
+}
+
+.me {
+  margin: 5px;
+}
+
+#texto {
+  width: 100%;
+}
+
+input {
+  border: 0px;
+  border-bottom: 3px solid rgb(4, 36, 111);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.logo1 img {
+  display: flex;
+  justify-content: end;
+  margin-top: -490px;
+  margin-left: 750px;
+}
+
+#campo1 {
+  width: 20.9%;
+}
+
+#campo3 {
+  display: flex;
+}
+
+#name,
+#campo {
+  width: 45%;
+}
+
+.p3 {
+  padding: 10px;
+  width: 70%;
+}
+
+input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.cta-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  background-color: rgb(4, 36, 111);
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+  color: white;
+  border: 2px solid transparent;
+}
+
+.button:hover {
+  background: transparent;
+  transition: all .4s;
+  border: 2px solid rgb(4, 36, 111);
+}
+
+.a1 {
+  color: white;
+}
+
+@media (max-width: 320px) {
+  select {
+    width: 100%;
+  }
+
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+
+  }
+
+}
+
+@media (max-width: 375px) {
+  select {
+    width: 100%;
+  }
+
+  .p3 {
+    width: 100%;
+  }
+
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  select {
+    width: 100%;
+  }
+
+  .p3 {
+    width: 100%;
+  }
+
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  select {
+    width: 100%;
+  }
+
+  #texto {
+    background-color: white;
+  }
+
+  .logo1 img {
+    display: none;
+  }
+
+  input {
+    border: 0px;
+    border-bottom: 3px solid rgb(4, 36, 111);
+    border-radius: 5px;
+    margin: 0.5rem;
+  }
+
+  #campo {
+    width: 90%;
+  }
+
+  #campo1,
+  #name {
+    width: 90%;
+  }
+}
